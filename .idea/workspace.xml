@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Initial renaming and structural changes">
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatform-API.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/BiddingPlatform-Frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/logic/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformFrontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformFrontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.ts" afterDir="false" />
+    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/DoctorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/DoctorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/DoctorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/hibernate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/hibernate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/solidity/doctorVote.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/solidity/doctorVote_sol_DoctorVote.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformFrontend/README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
     <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
@@ -93,54 +94,65 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="15" />
-          <entry key="java" value="4" />
+          <entry key="java" value="15" />
           <entry key="json" value="28" />
           <entry key="ts" value="26" />
-          <entry key="txt" value="87" />
+          <entry key="txt" value="122" />
           <entry key="xml" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="15" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="15" />
           <entry key="JSON" value="28" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="PLAIN_TEXT" value="122" />
           <entry key="TypeScript" value="26" />
           <entry key="XML" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="bin" value="1" />
           <entry key="brin" value="1" />
           <entry key="class" value="1" />
+          <entry key="css" value="1" />
+          <entry key="editorconfig" value="1" />
           <entry key="gist" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="hash" value="1" />
           <entry key="html" value="1" />
-          <entry key="iml" value="6" />
-          <entry key="java" value="6" />
-          <entry key="json" value="3" />
-          <entry key="md" value="1" />
+          <entry key="iml" value="9" />
+          <entry key="java" value="10" />
+          <entry key="js" value="1" />
+          <entry key="json" value="9" />
+          <entry key="md" value="2" />
           <entry key="mvnw" value="1" />
           <entry key="postgres" value="1" />
+          <entry key="scss" value="1" />
+          <entry key="sol" value="1" />
           <entry key="sql" value="1" />
           <entry key="ts" value="4" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
+          <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="IDEA_MODULE" value="6" />
-          <entry key="JAVA" value="6" />
-          <entry key="JSON" value="3" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="IDEA_MODULE" value="9" />
+          <entry key="JAVA" value="10" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="SCSS" value="1" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="1" />
           <entry key="TypeScript" value="4" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="4" />
+          <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -153,41 +165,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/main.iml">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/logic/DemoApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/tsconfig.app.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-695">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            </state>
+          </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/test.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/DoctorEntity.java">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/BiddingPlatformFrontend.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/DoctorEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -196,43 +209,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/UserController.java">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/DoctorRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="200">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/DoctorRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+            <state relative-caret-position="175">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/test.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -267,6 +276,9 @@
         <option value="$PROJECT_DIR$/BiddingPlatformFrontend/package.json" />
         <option value="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/DoctorRepository.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java" />
       </list>
     </option>
@@ -336,7 +348,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
@@ -385,7 +424,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BiddingPlatFromAPI Unit Tests">
+  <component name="RunManager" selected="Compound.BiddingPlatform Tests">
+    <configuration name="BiddingPlatform Tests" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="JUnit" name="BiddingPlatFromAPI Unit Tests" />
+      <toRun type="KotlinJavaScriptTestRunnerProtractor" name="BiddingPlatformFrontend E2E Tests" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BiddingPlatform" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="SpringBootApplicationConfigurationType" name="BiddingPlatformAPI" />
+      <toRun type="js.build_tools.npm" name="BiddingPlatformFrontend" />
+      <method v="2" />
+    </configuration>
     <configuration name="BiddingPlatFromAPI Unit Tests" type="JUnit" factoryName="JUnit">
       <module name="BiddingPlatformAPI" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -467,6 +516,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Compound.BiddingPlatform" />
+      <item itemvalue="Compound.BiddingPlatform Tests" />
       <item itemvalue="JUnit.BiddingPlatFromAPI Unit Tests" />
       <item itemvalue="npm.BiddingPlatformFrontend" />
       <item itemvalue="Protractor.BiddingPlatformFrontend E2E Tests" />
@@ -483,7 +534,7 @@
       <workItem from="1544042448163" duration="1606000" />
       <workItem from="1544044231663" duration="833000" />
       <workItem from="1544045078506" duration="64000" />
-      <workItem from="1544045179003" duration="1380000" />
+      <workItem from="1544045179003" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -513,16 +564,33 @@
       <option name="project" value="LOCAL" />
       <updated>1544045449056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Further tructural changes">
+      <created>1544046721936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544046721936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added the main Spring class">
+      <created>1544047052215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544047052215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="BiddingPlatformFrontend_E2E_Tests - 2018.12.05 at 22h 40m 12s.xml">
       <configuration name="BiddingPlatformFrontend E2E Tests" configurationId="KotlinJavaScriptTestRunnerProtractor" />
     </history-entry>
+    <history-entry file="BiddingPlatFromAPI_Unit_Tests - 2018.12.05 at 22h 50m 58s.xml">
+      <configuration name="BiddingPlatFromAPI Unit Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3883000" />
+    <option name="totallyTimeSpent" value="4732000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -585,7 +653,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial renaming and structural changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial renaming and structural changes" />
+    <MESSAGE value="Further tructural changes" />
+    <MESSAGE value="Added the main Spring class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the main Spring class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/role/postgres" />
@@ -605,13 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3568">
           <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -656,13 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/main.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/logic/DemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/test.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/target/classes/com/example/demo/DemoApplication.class">
@@ -672,47 +729,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/hibernate.xml">
       <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/solidity/doctorVote_sol_DoctorVote.bin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/solidity/doctorVote.sol">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/main.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="328">
           <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/DoctorEntity.java">
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2541" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/custom-theme.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/test.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/BiddingPlatformFrontend.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/DoctorEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java">
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/DoctorRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/UserController.java">
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="157">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/DoctorRepository.java">
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

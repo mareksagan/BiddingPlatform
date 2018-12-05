@@ -1,5 +1,6 @@
-package db;
+package db.repositories;
 
+import db.entities.DoctorEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

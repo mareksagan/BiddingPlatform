@@ -1,9 +1,8 @@
-package logic;
+package logic.controllers;
 
-import db.DoctorEntity;
-import db.DoctorRepository;
+import db.entities.DoctorEntity;
+import db.repositories.DoctorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +11,6 @@ import java.util.List;
 @RestController
 public class UserController {
 
-    @Autowired
     private DoctorRepository rep;
 
     @GetMapping("/beniz")

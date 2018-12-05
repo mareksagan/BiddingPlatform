@@ -6,7 +6,7 @@
   <session-factory>
     <property name="connection.url">jdbc:postgresql://localhost:5432/doctra</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
-    <mapping class="db.DoctorEntity"/>
+    <mapping class="db.entities.DoctorEntity"/>
     <!--<property name="connection.username"/>-->
     <!--<property name="connection.password"/>-->
 
