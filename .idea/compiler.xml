@@ -6,17 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BiddingPlatform-API" />
+        <module name="BiddingPlatformAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BiddingPlatform-API" target="10" />
       <module name="BiddingPlatformAPI" target="10" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="BiddingPlatform-API" options="-parameters" />
       <module name="BiddingPlatformAPI" options="-parameters" />
     </option>
   </component>

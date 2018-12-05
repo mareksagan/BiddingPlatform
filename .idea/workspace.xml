@@ -2,10 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform-API/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform-Frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatformAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/byte-buddy-1.8.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/hibernate-core-5.3.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/java/db/DoctorEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/java/db/DoctorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/java/db/hibernate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/java/logic/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/resources/templates/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/solidity/doctorVote.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/main/solidity/doctorVote_sol_DoctorVote.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/src/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/com/example/demo/DoctorEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/com/example/demo/DoctorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/com/example/demo/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/db/DoctorEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/db/DoctorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/logic/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/templates/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/classes/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-API/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/BiddingPlatformFrontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/app/register/register.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/custom-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform-Frontend/tslint.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
+    <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,45 +183,101 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="doctra: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="doctra: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="doctra: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="doctra: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1307972233">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="2" />
           <entry key="txt" value="22" />
-          <entry key="xml" value="83" />
+          <entry key="xml" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="XML" value="83" />
+          <entry key="XML" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="brin" value="1" />
+          <entry key="gist" value="1" />
+          <entry key="hash" value="1" />
           <entry key="iml" value="2" />
-          <entry key="json" value="1" />
+          <entry key="java" value="1" />
+          <entry key="json" value="2" />
           <entry key="md" value="1" />
+          <entry key="postgres" value="1" />
+          <entry key="sql" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JSON" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="Markdown" value="1" />
+          <entry key="SQL" value="4" />
+          <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -73,43 +289,10 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1049">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatform-API.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b83cba3b-d7ab-43c3-9893-1f113f919415/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -145,12 +328,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -173,11 +351,7 @@
           <expand>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform-API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform-Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="BiddingPlatformFrontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,9 +360,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BiddingPlatform-Frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BiddingPlatformFrontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -211,7 +386,7 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="BiddingPlatform-API" />
+      <module name="BiddingPlatformAPI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -224,7 +399,7 @@
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="BiddingPlatform-API" />
+      <module name="BiddingPlatformAPI" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -266,6 +441,9 @@
       <option name="presentableId" value="Default" />
       <updated>1544042447013</updated>
       <workItem from="1544042448163" duration="1606000" />
+      <workItem from="1544044231663" duration="833000" />
+      <workItem from="1544045078506" duration="64000" />
+      <workItem from="1544045179003" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -292,27 +470,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1606000" />
+    <option name="totallyTimeSpent" value="2627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="TypeScript" visible="true" weight="0.32969603" />
-      <window_info anchor="bottom" id="Analysis" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32969603" />
-      <window_info anchor="bottom" id="Tail" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -320,16 +488,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.3298887" />
-      <window_info anchor="right" id="Database" weight="0.3298887" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32969603" />
+      <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18402226" />
+      <window_info anchor="right" id="Database" order="6" weight="0.14030206" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="PlantUML" order="8" weight="0.3298887" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298887" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,35 +524,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatform-API.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1049">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/role/postgres" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/doctra/access-method/brin" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/doctra/access-method/hash" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/doctra/access-method/gist" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/package.json" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatformAPI.iml" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/tslint.json" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform-API/src/main/java/db/DoctorEntity.java" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform-Frontend/README.md" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b83cba3b-d7ab-43c3-9893-1f113f919415/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -393,7 +554,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -428,12 +589,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BiddingPlatform-Frontend</last-edited>
+          <last-edited>BiddingPlatformFrontend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
