@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Hibernate model update">
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/AddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/AdminEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CartEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CartItemsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientStockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientTransactionsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientTransactionsEnumEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CountryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemBidsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/PaymentEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415/storage_v2/_src_/database/biddingplatformdb.7AlPOg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415/storage_v2/_src_/database/biddingplatformdb.7AlPOg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CategoryEntity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
     <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
@@ -89,7 +74,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="category: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="client: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -99,7 +84,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="client: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="client_reviews: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -129,6 +114,16 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="discount: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="item: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
       <path>
@@ -140,6 +135,16 @@
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="item_bids: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="item_category: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -168,12 +173,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="26" />
+          <entry key="cell" value="38" />
           <entry key="html" value="15" />
           <entry key="java" value="116" />
           <entry key="json" value="28" />
           <entry key="properties" value="17" />
-          <entry key="sql" value="132" />
+          <entry key="sql" value="210" />
           <entry key="ts" value="26" />
           <entry key="txt" value="182" />
           <entry key="xml" value="236" />
@@ -186,8 +191,8 @@
           <entry key="JSON" value="28" />
           <entry key="PLAIN_TEXT" value="182" />
           <entry key="Properties" value="17" />
-          <entry key="SQL" value="132" />
-          <entry key="Scratch" value="26" />
+          <entry key="SQL" value="210" />
+          <entry key="Scratch" value="38" />
           <entry key="TypeScript" value="26" />
           <entry key="XML" value="236" />
         </counts>
@@ -197,8 +202,10 @@
           <entry key="bin" value="1" />
           <entry key="brin" value="1" />
           <entry key="cart" value="1" />
+          <entry key="category" value="1" />
           <entry key="class" value="1" />
           <entry key="client" value="2" />
+          <entry key="client_reviews" value="1" />
           <entry key="client_transactions" value="1" />
           <entry key="client_transactions_enum" value="1" />
           <entry key="css" value="1" />
@@ -231,7 +238,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="1" />
-          <entry key="Database Element" value="9" />
+          <entry key="Database Element" value="11" />
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="11" />
           <entry key="JAVA" value="18" />
@@ -285,7 +292,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/ClientRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -311,6 +318,15 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions_enum">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_reviews">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -703,7 +719,7 @@
       <workItem from="1544290724720" duration="601000" />
       <workItem from="1544404294275" duration="935000" />
       <workItem from="1544405242441" duration="272000" />
-      <workItem from="1544405529100" duration="8194000" />
+      <workItem from="1544405529100" duration="10251000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -761,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544407398827</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Hibernate model update">
+      <created>1544414550286</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544414550286</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -776,7 +799,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16476000" />
+    <option name="totallyTimeSpent" value="18533000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -789,10 +812,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Persistence" sideWeight="0.50116277" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988372" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988372" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -800,7 +822,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" sideWeight="0.49920508" weight="0.32969603" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.32969603" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880764" weight="0.32969603" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -811,20 +833,20 @@
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50039744" side_tool="true" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5011924" side_tool="true" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32969603" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32969603" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.49960256" weight="0.32969603" />
-      <window_info anchor="bottom" id="SQL Generator" order="18" sideWeight="0.49960256" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="SQL Generator" order="18" sideWeight="0.49960256" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.18402226" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.14030206" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.14030206" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="PlantUML" order="8" weight="0.3298887" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298887" />
@@ -883,12 +905,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Hibernate model update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/register/register.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1108,23 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions_enum">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/Superclass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1173,6 +1172,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions_enum">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_reviews">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
