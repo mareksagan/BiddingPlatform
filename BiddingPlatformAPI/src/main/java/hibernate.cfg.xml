@@ -6,7 +6,18 @@
     <session-factory>
         <property name="connection.url">jdbc:postgresql://localhost:5432/biddingplatformdb</property>
         <property name="connection.driver_class">org.postgresql.Driver</property>
+        <mapping class="db.entities.AddressEntity"/>
+        <mapping class="db.entities.AdminEntity"/>
+        <mapping class="db.entities.CartEntity"/>
+        <mapping class="db.entities.CartItemsEntity"/>
+        <mapping class="db.entities.CategoryEntity"/>
         <mapping class="db.entities.ClientEntity"/>
-        <mapping class="db.entities.ItemsEntity"/>
+        <mapping class="db.entities.ClientStockEntity"/>
+        <mapping class="db.entities.ClientTransactionsEntity"/>
+        <mapping class="db.entities.ClientTransactionsEnumEntity"/>
+        <mapping class="db.entities.CountryEntity"/>
+        <mapping class="db.entities.ItemEntity"/>
+        <mapping class="db.entities.ItemBidsEntity"/>
+        <mapping class="db.entities.PaymentEntity"/>
     </session-factory>
 </hibernate-configuration>

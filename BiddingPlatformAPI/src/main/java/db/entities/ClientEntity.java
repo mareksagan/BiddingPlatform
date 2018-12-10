@@ -5,17 +5,17 @@ import javax.persistence.*;
 @Entity
 @Table(name = "client", schema = "public", catalog = "biddingplatformdb")
 public class ClientEntity {
-    private int id;
+    private Object id;
     private String firstname;
     private String lastname;
 
     @Id
     @Column(name = "id")
-    public int getId() {
+    public Object getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Object id) {
         this.id = id;
     }
 
@@ -46,7 +46,7 @@ public class ClientEntity {
 
         ClientEntity that = (ClientEntity) o;
 
-        if (id != that.id) return false;
+        if (id != null ? !id.equals(that.id) : that.id != null) return false;
         if (firstname != null ? !firstname.equals(that.firstname) : that.firstname != null) return false;
         if (lastname != null ? !lastname.equals(that.lastname) : that.lastname != null) return false;
 
@@ -55,7 +55,7 @@ public class ClientEntity {
 
     @Override
     public int hashCode() {
-        int result = id;
+        int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (firstname != null ? firstname.hashCode() : 0);
         result = 31 * result + (lastname != null ? lastname.hashCode() : 0);
         return result;
