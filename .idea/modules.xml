@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" filepath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatformAPI.iml" filepath="$PROJECT_DIR$/BiddingPlatform-API/BiddingPlatformAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/BiddingPlatformFrontend/BiddingPlatformFrontend.iml" filepath="$PROJECT_DIR$/BiddingPlatformFrontend/BiddingPlatformFrontend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BiddingPlatform-Frontend/BiddingPlatformFrontend.iml" filepath="$PROJECT_DIR$/BiddingPlatform-Frontend/BiddingPlatformFrontend.iml" />
     </modules>
   </component>
 </project>

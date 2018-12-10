@@ -3,8 +3,8 @@ package db.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "doctor", schema = "public", catalog = "doctra")
-public class DoctorEntity {
+@Table(name = "client", schema = "public", catalog = "biddingplatformdb")
+public class ClientEntity {
     private int id;
     private String firstname;
     private String lastname;
@@ -44,7 +44,7 @@ public class DoctorEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        DoctorEntity that = (DoctorEntity) o;
+        ClientEntity that = (ClientEntity) o;
 
         if (id != that.id) return false;
         if (firstname != null ? !firstname.equals(that.firstname) : that.firstname != null) return false;

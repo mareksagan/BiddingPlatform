@@ -1,8 +1,7 @@
 package logic.controllers;
 
-import db.entities.DoctorEntity;
-import db.repositories.DoctorRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import db.entities.ClientEntity;
+import db.repositories.ClientRepository;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,20 +10,20 @@ import java.util.List;
 @RestController
 public class UserController {
 
-    private DoctorRepository rep;
+    private ClientRepository rep;
 
-    @GetMapping("/beniz")
-    public String penisGetAll(Model model){
+    @GetMapping("/client")
+    public String clientGetAll(Model model){
 
-        List<DoctorEntity> list = rep.findAll();
+        List<ClientEntity> list = rep.findAll();
 
         model.addAttribute("docs", list);
 
         return "demo";
     }
 
-    @PostMapping("/benizPost")
-    public String penisPost(@ModelAttribute("doctor") DoctorEntity doc){
+    @PostMapping("/clientPost")
+    public String clientPost(@ModelAttribute("client") ClientEntity doc){
 
         rep.save(doc);
 

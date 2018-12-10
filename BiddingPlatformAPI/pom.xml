@@ -31,7 +31,7 @@
         </dependency>
 
         <!--
-        change names and fix the Spring Boot main class
+        change database name and the class names. Develop!
         -->
 
         <dependency>
