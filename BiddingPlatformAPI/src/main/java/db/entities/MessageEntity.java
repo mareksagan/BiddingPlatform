@@ -3,19 +3,19 @@ package db.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "category", schema = "public", catalog = "biddingplatformdb")
-public class CategoryEntity {
-    private String name;
+@Table(name = "message", schema = "public", catalog = "biddingplatformdb")
+public class MessageEntity {
+    private String text;
     private Object id;
 
     @Basic
-    @Column(name = "name")
-    public String getName() {
-        return name;
+    @Column(name = "text")
+    public String getText() {
+        return text;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setText(String text) {
+        this.text = text;
     }
 
     @Id
@@ -33,9 +33,9 @@ public class CategoryEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        CategoryEntity that = (CategoryEntity) o;
+        MessageEntity that = (MessageEntity) o;
 
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (text != null ? !text.equals(that.text) : that.text != null) return false;
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
 
         return true;
@@ -43,7 +43,7 @@ public class CategoryEntity {
 
     @Override
     public int hashCode() {
-        int result = name != null ? name.hashCode() : 0;
+        int result = text != null ? text.hashCode() : 0;
         result = 31 * result + (id != null ? id.hashCode() : 0);
         return result;
     }

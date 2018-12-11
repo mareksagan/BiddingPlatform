@@ -8,16 +8,23 @@
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <mapping class="db.entities.AddressEntity"/>
         <mapping class="db.entities.AdminEntity"/>
+        <mapping class="db.entities.BidEntity"/>
+        <mapping class="db.entities.BlacklistEntity"/>
+        <mapping class="db.entities.CardEntity"/>
         <mapping class="db.entities.CartEntity"/>
-        <mapping class="db.entities.CartItemsEntity"/>
+        <mapping class="db.entities.CartOrdersEntity"/>
         <mapping class="db.entities.CategoryEntity"/>
         <mapping class="db.entities.ClientEntity"/>
-        <mapping class="db.entities.ClientStockEntity"/>
-        <mapping class="db.entities.ClientTransactionsEntity"/>
-        <mapping class="db.entities.ClientTransactionsEnumEntity"/>
         <mapping class="db.entities.CountryEntity"/>
+        <mapping class="db.entities.DiscountEntity"/>
         <mapping class="db.entities.ItemEntity"/>
-        <mapping class="db.entities.ItemBidsEntity"/>
+        <mapping class="db.entities.MessageEntity"/>
+        <mapping class="db.entities.OrderEntity"/>
         <mapping class="db.entities.PaymentEntity"/>
+        <mapping class="db.entities.PhotoEntity"/>
+        <mapping class="db.entities.ReviewEntity"/>
+        <mapping class="db.entities.ShippingEntity"/>
+        <mapping class="db.entities.TransactionEntity"/>
+        <mapping class="db.entities.WatchlistEntity"/>
     </session-factory>
 </hibernate-configuration>
