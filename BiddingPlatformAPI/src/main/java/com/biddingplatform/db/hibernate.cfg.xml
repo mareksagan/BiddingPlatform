@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/biddingplatformdb</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <mapping class="com.biddingplatform.db.entities.AddressEntity"/>
+        <mapping class="com.biddingplatform.db.entities.AdminEntity"/>
+        <mapping class="com.biddingplatform.db.entities.BidEntity"/>
+        <mapping class="com.biddingplatform.db.entities.BlacklistEntity"/>
+        <mapping class="com.biddingplatform.db.entities.CardEntity"/>
+        <mapping class="com.biddingplatform.db.entities.CartEntity"/>
+        <mapping class="com.biddingplatform.db.entities.CartOrdersEntity"/>
+        <mapping class="com.biddingplatform.db.entities.CategoryEntity"/>
+        <mapping class="com.biddingplatform.db.entities.ClientEntity"/>
+        <mapping class="com.biddingplatform.db.entities.CountryEntity"/>
+        <mapping class="com.biddingplatform.db.entities.DiscountEntity"/>
+        <mapping class="com.biddingplatform.db.entities.FeeEntity"/>
+        <mapping class="com.biddingplatform.db.entities.ItemEntity"/>
+        <mapping class="com.biddingplatform.db.entities.ItemPhotosEntity"/>
+        <mapping class="com.biddingplatform.db.entities.MessageEntity"/>
+        <mapping class="com.biddingplatform.db.entities.OrderEntity"/>
+        <mapping class="com.biddingplatform.db.entities.PaymentEntity"/>
+        <mapping class="com.biddingplatform.db.entities.PayoutEntity"/>
+        <mapping class="com.biddingplatform.db.entities.PhotoEntity"/>
+        <mapping class="com.biddingplatform.db.entities.ReviewEntity"/>
+        <mapping class="com.biddingplatform.db.entities.ShippingEntity"/>
+        <mapping class="com.biddingplatform.db.entities.TransactionEntity"/>
+        <mapping class="com.biddingplatform.db.entities.WatchlistEntity"/>
+        <mapping resource="com/biddingplatform/db/entities/AddressEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/AdminEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/BidEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/BlacklistEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/CardEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/CartEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/CartOrdersEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/CategoryEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/ClientEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/CountryEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/DiscountEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/FeeEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/ItemEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/ItemPhotosEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/MessageEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/OrderEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/PaymentEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/PayoutEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/PhotoEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/ReviewEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/ShippingEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/TransactionEntity.hbm.xml"/>
+        <mapping resource="com/biddingplatform/db/entities/WatchlistEntity.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

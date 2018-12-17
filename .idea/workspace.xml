@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="">
+    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Further database changes">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BidEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BlacklistEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CardEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartOrdersEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/DiscountEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/FeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415/storage_v2/_src_/database/biddingplatformdb.7AlPOg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415/storage_v2/_src_/database/biddingplatformdb.7AlPOg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CartItemsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CartItemsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientTransactionsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientTransactionsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientTransactionsEnumEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientTransactionsEnumEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemBidsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemBidsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AddressEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/AdminEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AdminEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/BidEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/BlacklistEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CardEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CartOrdersEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ClientEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CountryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CountryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/DiscountEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/MessageEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/PaymentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/PhotoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ReviewEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ReviewEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ShippingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/TransactionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/WatchlistEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/logic/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/DemoApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
     <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
@@ -45,237 +88,381 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cart: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="address: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cart_orders: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="admin: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="client: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="bid: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="payment: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="blacklist: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="biddingplatformdb: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="transaction: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="card: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cart: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cart_orders: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="category: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="client: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="country: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="discount: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fee: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="item: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="item_photos: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="message: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="order: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="payment: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="payout: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="photo: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="review: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shipping: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="transaction: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BiddingPlatformDb" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="biddingplatformdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="watchlist: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1307972233">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="7" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="137" />
-          <entry key="html" value="15" />
-          <entry key="java" value="116" />
-          <entry key="json" value="28" />
-          <entry key="properties" value="17" />
-          <entry key="sql" value="665" />
-          <entry key="ts" value="26" />
-          <entry key="txt" value="243" />
-          <entry key="xml" value="236" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="15" />
-          <entry key="JAVA" value="116" />
-          <entry key="JSON" value="28" />
-          <entry key="PLAIN_TEXT" value="243" />
-          <entry key="Properties" value="17" />
-          <entry key="SQL" value="665" />
-          <entry key="Scratch" value="137" />
-          <entry key="TypeScript" value="26" />
-          <entry key="XML" value="236" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="address" value="1" />
-          <entry key="bid" value="1" />
-          <entry key="bin" value="1" />
-          <entry key="brin" value="1" />
-          <entry key="cart" value="4" />
-          <entry key="cart_items" value="1" />
-          <entry key="cart_items_id_uindex" value="1" />
-          <entry key="category" value="2" />
-          <entry key="class" value="1" />
-          <entry key="client" value="4" />
-          <entry key="client_blacklist" value="1" />
-          <entry key="client_message" value="1" />
-          <entry key="client_reviews" value="2" />
-          <entry key="client_stock" value="1" />
-          <entry key="client_transactions" value="2" />
-          <entry key="client_transactions_enum" value="2" />
-          <entry key="client_watchlist" value="1" />
-          <entry key="country" value="1" />
-          <entry key="css" value="1" />
-          <entry key="discount" value="2" />
-          <entry key="doctor" value="1" />
-          <entry key="editorconfig" value="1" />
-          <entry key="gist" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="hash" value="1" />
-          <entry key="html" value="3" />
-          <entry key="iml" value="11" />
-          <entry key="item" value="3" />
-          <entry key="item_bid" value="1" />
-          <entry key="item_bids" value="1" />
-          <entry key="item_category" value="1" />
-          <entry key="item_offers" value="1" />
-          <entry key="item_photos" value="1" />
-          <entry key="items" value="1" />
-          <entry key="java" value="18" />
-          <entry key="js" value="1" />
-          <entry key="json" value="9" />
-          <entry key="md" value="2" />
-          <entry key="mvnw" value="1" />
-          <entry key="order" value="3" />
-          <entry key="payment" value="1" />
-          <entry key="payment_card" value="1" />
-          <entry key="payment_kind" value="2" />
-          <entry key="payment_kind_card" value="1" />
-          <entry key="payment_kind_enum" value="1" />
-          <entry key="postgres" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="scss" value="1" />
-          <entry key="sol" value="1" />
-          <entry key="sql" value="3" />
-          <entry key="transaction" value="2" />
-          <entry key="transaction_kind" value="1" />
-          <entry key="ts" value="4" />
-          <entry key="xml" value="7" />
-          <entry key="xml/BiddingPlatformAPI/hibernate/Hibernate/PersistenceModel" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="CSS" value="1" />
-          <entry key="Database Element" value="48" />
-          <entry key="HTML" value="3" />
-          <entry key="IDEA_MODULE" value="11" />
-          <entry key="JAVA" value="18" />
-          <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="1" />
-          <entry key="SCSS" value="1" />
-          <entry key="SQL" value="5" />
-          <entry key="Scratch" value="3" />
-          <entry key="TypeScript" value="4" />
-          <entry key="UML" value="1" />
-          <entry key="XML" value="7" />
-          <entry key="tsconfig" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="Angular2LanguageService" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-220">
+              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ReviewEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-380">
+              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/transaction">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -291,6 +478,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Object</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -298,13 +490,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../marcet" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -315,23 +500,46 @@
         <option value="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/App.java" />
-        <option value="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/hibernate.xml" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/DoctorEntity.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/DoctorRepository.java" />
-        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/ClientRepository.java" />
-        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/ItemsEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/DiscountEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/AdminEntity.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/entities/CardEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/logic/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/db/repositories/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/UserController.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AddressEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AdminEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BidEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BlacklistEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CardEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartOrdersEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CategoryEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ClientEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/DiscountEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/FeeEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ReviewEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -344,19 +552,10 @@
       <select />
     </treeState>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/BiddingPlatformFrontend/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/BiddingPlatformFrontend/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="946" />
-    <option name="y" value="164" />
-    <option name="width" value="959" />
-    <option name="height" value="1401" />
+    <option name="x" value="988" />
+    <option name="width" value="1565" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -364,6 +563,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,6 +606,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -414,6 +623,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -423,25 +633,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
@@ -458,18 +651,34 @@
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="BiddingPlatformFrontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -507,13 +716,17 @@
     <property name="ts.external.directory.path" value="C:\Users\Marek\Desktop\BiddingPlatform\BiddingPlatformFrontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="db.entities" />
-      <recent name="" />
-      <recent name="db" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="db.entities" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.biddingplatform.db.entities" />
+      <recent name="" />
+      <recent name="db.entities" />
+      <recent name="db" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marek\Desktop\BiddingPlatform\BiddingPlatformAPI\src\main\java\com\biddingplatform\db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -528,15 +741,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Compound.BiddingPlatform">
-    <configuration name="BiddingPlatform Tests" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
-      <toRun type="JUnit" name="BiddingPlatFromAPI Unit Tests" />
-      <toRun type="KotlinJavaScriptTestRunnerProtractor" name="BiddingPlatformFrontend E2E Tests" />
+  <component name="RunManager" selected="Spring Boot.BiddingPlatformAPI">
+    <configuration name="BiddingPlatform Tests" type="CompoundRunConfigurationType">
+      <toRun name="BiddingPlatFromAPI Unit Tests" type="JUnit" />
+      <toRun name="BiddingPlatformFrontend E2E Tests" type="KotlinJavaScriptTestRunnerProtractor" />
       <method v="2" />
     </configuration>
-    <configuration name="BiddingPlatform" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
-      <toRun type="SpringBootApplicationConfigurationType" name="BiddingPlatformAPI" />
-      <toRun type="js.build_tools.npm" name="BiddingPlatformFrontend" />
+    <configuration name="BiddingPlatform" type="CompoundRunConfigurationType">
+      <toRun name="BiddingPlatformAPI" type="SpringBootApplicationConfigurationType" />
+      <toRun name="BiddingPlatformFrontend" type="js.build_tools.npm" />
       <method v="2" />
     </configuration>
     <configuration name="BiddingPlatFromAPI Unit Tests" type="JUnit" factoryName="JUnit">
@@ -606,13 +819,13 @@
     </configuration>
     <configuration name="BiddingPlatformAPI" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="BiddingPlatformAPI" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="logic.App" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biddingplatform.App" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BiddingPlatformFrontend" type="js.build_tools.npm" factoryName="npm">
+    <configuration name="BiddingPlatformFrontend" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/BiddingPlatformFrontend/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
@@ -624,7 +837,6 @@
       <item itemvalue="Compound.BiddingPlatform Tests" />
       <item itemvalue="JUnit.BiddingPlatFromAPI Unit Tests" />
       <item itemvalue="npm.BiddingPlatformFrontend" />
-      <item itemvalue="Protractor.BiddingPlatformFrontend E2E Tests" />
       <item itemvalue="Spring Boot.BiddingPlatformAPI" />
     </list>
   </component>
@@ -650,7 +862,21 @@
       <workItem from="1544405529100" duration="10274000" />
       <workItem from="1544416996053" duration="200000" />
       <workItem from="1544466644161" duration="13492000" />
-      <workItem from="1544487290788" duration="748000" />
+      <workItem from="1544487290788" duration="1139000" />
+      <workItem from="1544489412587" duration="138000" />
+      <workItem from="1544491669964" duration="51000" />
+      <workItem from="1544548462601" duration="622000" />
+      <workItem from="1544638232080" duration="16095000" />
+      <workItem from="1544666682310" duration="2577000" />
+      <workItem from="1544728785191" duration="475000" />
+      <workItem from="1544743191145" duration="690000" />
+      <workItem from="1544744629944" duration="2112000" />
+      <workItem from="1544824616686" duration="1802000" />
+      <workItem from="1544875429014" duration="2487000" />
+      <workItem from="1544889707039" duration="12220000" />
+      <workItem from="1544930859994" duration="171000" />
+      <workItem from="1544959217257" duration="645000" />
+      <workItem from="1544978093507" duration="11490000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -722,7 +948,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544416614440</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Further database changes">
+      <created>1544488217583</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544488217583</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -737,7 +970,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32996000" />
+    <option name="totallyTimeSpent" value="84962000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -750,17 +983,60 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43116882" visible="true" weight="0.28219396" />
+      <window_info id="Structure" order="1" sideWeight="0.08574739" side_tool="true" weight="0.28219396" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Persistence" order="6" sideWeight="0.56883115" side_tool="true" visible="true" weight="0.28219396" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880764" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.32735777" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3998441" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5019873" side_tool="true" weight="0.32735777" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32969603" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49966776" weight="0.3320251" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.49920508" weight="0.32969603" />
+      <window_info anchor="bottom" id="SQL Generator" order="18" sideWeight="0.49960256" weight="0.32969603" />
+      <window_info anchor="bottom" id="Database Console" order="19" sideWeight="0.49920508" weight="0.32969603" />
+      <window_info anchor="bottom" id="Hibernate Console" order="20" sideWeight="0.49960256" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Docker" order="21" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.18402226" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1891892" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="PlantUML" order="8" weight="0.3298887" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298887" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4820394" visible="true" weight="0.16255961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Persistence" order="6" sideWeight="0.5046512" side_tool="true" visible="true" weight="0.25" />
+      <window_info id="Persistence" order="6" sideWeight="0.5179606" side_tool="true" visible="true" weight="0.16255961" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880764" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880764" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.32735777" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,25 +1046,28 @@
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5011924" side_tool="true" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5019873" side_tool="true" visible="true" weight="0.32735777" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32969603" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32969603" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49966776" weight="0.3320251" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.49960256" weight="0.32969603" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.49920508" weight="0.32969603" />
       <window_info anchor="bottom" id="SQL Generator" order="18" sideWeight="0.49960256" weight="0.32969603" />
       <window_info anchor="bottom" id="Database Console" order="19" sideWeight="0.49920508" weight="0.32969603" />
+      <window_info anchor="bottom" id="Hibernate Console" order="20" sideWeight="0.49960256" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Docker" order="21" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.18402226" />
-      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.14030206" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.1891892" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="PlantUML" order="8" weight="0.3298887" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298887" />
-    </layout>
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -829,9 +1108,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -844,55 +1134,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Further database changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/country" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_photos" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_bids" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_category" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_bid" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_watchlist" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions_enum" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_transactions" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_blacklist" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_reviews" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_message" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payment_card" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/transaction_kind" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payment_kind" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client_stock" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payment" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart_items" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/transaction" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/category" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/address" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/bid" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/discount" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order/index/cart_items_id_uindex" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order" />
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/country">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart_orders">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -906,35 +1155,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/card">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/bid">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/admin">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/address">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_photos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/review">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/watchlist">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -948,10 +1211,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/transaction">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/repositories/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payout">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CardEntity.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.hbm.xml" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/blacklist">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/discount">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/shipping">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AdminEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AddressEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BidEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BlacklistEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CardEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartOrdersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CategoryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ClientEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CountryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/DiscountEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/FeeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ReviewEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,6 +1627,17 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4074074" />
               </list>
             </option>
           </splitter-proportions>
