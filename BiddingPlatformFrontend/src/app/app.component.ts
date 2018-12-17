@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'the Bidding Platform';
+  client = null;
+
+  constructor(private http: HttpClient){
+    let subscription = this.http.get('http://localhost:8080/client')
+      .subscribe(response => this.client = response);
+  }
+
 }
