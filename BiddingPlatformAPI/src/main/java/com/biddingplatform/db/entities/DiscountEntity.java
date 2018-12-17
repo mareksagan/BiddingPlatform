@@ -45,9 +45,13 @@ public class DiscountEntity {
 
     @Id
     @Column(name = "id", nullable = false)
-    public UUID getId() { return id; }
+    public UUID getId() {
+        return id;
+    }
 
-    public void setId(UUID id) { this.id = id; }
+    public void setId(UUID id) {
+        this.id = id;
+    }
 
     @Basic
     @Column(name = "client_id", nullable = true)

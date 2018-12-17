@@ -109,8 +109,8 @@
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-12-17.01:12:09.266</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1033</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-12-17.05:19:51.163</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1046</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -410,7 +410,8 @@
       <Position>1</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1038</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
       <TypeId>1114</TypeId>
     </column>
     <column id="69" parent="30" name="amount">
@@ -1264,7 +1265,8 @@
       <Position>2</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>738</StateNumber>
+      <StateNumber>1039</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
       <TypeId>1114</TypeId>
     </column>
     <column id="193" parent="44" name="total_amount">
@@ -1538,44 +1540,37 @@
       <StateNumber>794</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <column id="232" parent="49" name="seller_id">
-      <Position>3</Position>
-      <DataType>uuid|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>848</StateNumber>
-      <TypeId>2950</TypeId>
-    </column>
-    <column id="233" parent="49" name="cart_id">
+    <column id="232" parent="49" name="cart_id">
       <Position>5</Position>
       <DataType>uuid|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>860</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <column id="234" parent="49" name="finished">
+    <column id="233" parent="49" name="finished">
       <Position>6</Position>
       <DataType>boolean|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>861</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <index id="235" parent="49" name="client_transactions_id_uindex">
+    <index id="234" parent="49" name="client_transactions_id_uindex">
       <ObjectId>16637</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="236" parent="49" name="client_transactions_pk">
+    <index id="235" parent="49" name="client_transactions_pk">
       <ObjectId>16638</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="237" parent="49" name="client_transactions_pk">
+    <key id="236" parent="49" name="client_transactions_pk">
       <ObjectId>16639</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>client_transactions_pk</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="238" parent="49" name="transaction_payment_id_fk">
+    <foreign-key id="237" parent="49" name="transaction_payment_id_fk">
       <ObjectId>16770</ObjectId>
       <ColNames>payment_id</ColNames>
       <RefTableId>16482</RefTableId>
@@ -1584,16 +1579,7 @@
       <RefKeyName>payment_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="239" parent="49" name="transaction_client_id_fk">
-      <ObjectId>16765</ObjectId>
-      <ColNames>seller_id</ColNames>
-      <RefTableId>16394</RefTableId>
-      <RefColPositions>4</RefColPositions>
-      <RefTableName>client</RefTableName>
-      <RefKeyName>client_pk</RefKeyName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <foreign-key id="240" parent="49" name="transaction_cart_id_fk">
+    <foreign-key id="238" parent="49" name="transaction_cart_id_fk">
       <ObjectId>16760</ObjectId>
       <ColNames>cart_id</ColNames>
       <RefTableId>16472</RefTableId>
@@ -1602,44 +1588,44 @@
       <RefKeyName>cart_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="241" parent="50" name="client_id">
+    <column id="239" parent="50" name="client_id">
       <Position>1</Position>
       <DataType>uuid|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>785</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <column id="242" parent="50" name="item_id">
+    <column id="240" parent="50" name="item_id">
       <Position>2</Position>
       <DataType>uuid|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>786</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <column id="243" parent="50" name="id">
+    <column id="241" parent="50" name="id">
       <Position>3</Position>
       <DataType>uuid|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>787</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <index id="244" parent="50" name="client_watchlist_id_uindex">
+    <index id="242" parent="50" name="client_watchlist_id_uindex">
       <ObjectId>16624</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="245" parent="50" name="client_watchlist_pk">
+    <index id="243" parent="50" name="client_watchlist_pk">
       <ObjectId>16625</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="246" parent="50" name="client_watchlist_pk">
+    <key id="244" parent="50" name="client_watchlist_pk">
       <ObjectId>16626</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>client_watchlist_pk</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="247" parent="50" name="client_watchlist_client_id_fk">
+    <foreign-key id="245" parent="50" name="client_watchlist_client_id_fk">
       <ObjectId>16632</ObjectId>
       <ColNames>client_id</ColNames>
       <RefTableId>16394</RefTableId>
@@ -1648,7 +1634,7 @@
       <RefKeyName>client_pk</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="248" parent="50" name="watchlist_item_id_fk">
+    <foreign-key id="246" parent="50" name="watchlist_item_id_fk">
       <ObjectId>16775</ObjectId>
       <ColNames>item_id</ColNames>
       <RefTableId>16464</RefTableId>

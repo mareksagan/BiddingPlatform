@@ -14,7 +14,9 @@ public class AdminEntity {
 
     @Id
     @Column(name = "id", nullable = false)
-    public UUID getId() { return id; }
+    public UUID getId() {
+        return id;
+    }
 
     public void setId(UUID id) {
         this.id = id;

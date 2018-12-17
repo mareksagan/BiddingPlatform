@@ -8,7 +8,6 @@ import java.util.UUID;
 public class TransactionEntity {
     private UUID paymentId;
     private UUID id;
-    private UUID sellerId;
     private UUID cartId;
     private boolean finished;
 
@@ -30,16 +29,6 @@ public class TransactionEntity {
 
     public void setId(UUID id) {
         this.id = id;
-    }
-
-    @Basic
-    @Column(name = "seller_id", nullable = false)
-    public UUID getSellerId() {
-        return sellerId;
-    }
-
-    public void setSellerId(UUID sellerId) {
-        this.sellerId = sellerId;
     }
 
     @Basic
@@ -72,7 +61,6 @@ public class TransactionEntity {
         if (finished != that.finished) return false;
         if (paymentId != null ? !paymentId.equals(that.paymentId) : that.paymentId != null) return false;
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
-        if (sellerId != null ? !sellerId.equals(that.sellerId) : that.sellerId != null) return false;
         if (cartId != null ? !cartId.equals(that.cartId) : that.cartId != null) return false;
 
         return true;
@@ -82,7 +70,6 @@ public class TransactionEntity {
     public int hashCode() {
         int result = paymentId != null ? paymentId.hashCode() : 0;
         result = 31 * result + (id != null ? id.hashCode() : 0);
-        result = 31 * result + (sellerId != null ? sellerId.hashCode() : 0);
         result = 31 * result + (cartId != null ? cartId.hashCode() : 0);
         result = 31 * result + (finished ? 1 : 0);
         return result;
