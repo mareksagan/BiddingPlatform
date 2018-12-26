@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415/storage_v2/_src_/database/biddingplatformdb.7AlPOg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b83cba3b-d7ab-43c3-9893-1f113f919415/storage_v2/_src_/database/biddingplatformdb.7AlPOg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AdminEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AdminEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BidEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BidEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BlacklistEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BlacklistEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CardEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartOrdersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartOrdersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ClientEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/DiscountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/DiscountEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/FeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/FeeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ReviewEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ReviewEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
     <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
@@ -323,33 +300,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ItemPhotosEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/MessageEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state>
               <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -361,7 +314,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
+            <state relative-caret-position="800">
               <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
             </state>
           </provider>
@@ -370,7 +323,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
+            <state relative-caret-position="850">
               <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
             </state>
           </provider>
@@ -379,7 +332,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-488">
+            <state relative-caret-position="375">
               <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -403,7 +356,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-502">
+            <state relative-caret-position="375">
               <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -424,15 +377,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="432">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -511,6 +476,9 @@
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/TransactionEntity.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/Configuration.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/CustomConfiguration.java" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java" />
       </list>
     </option>
   </component>
@@ -580,54 +548,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
@@ -769,7 +689,7 @@
   <component name="RunManager" selected="Compound.BiddingPlatform">
     <configuration name="BiddingPlatform Tests" type="CompoundRunConfigurationType">
       <toRun name="BiddingPlatFromAPI Unit Tests" type="JUnit" />
-      <toRun name="BiddingPlatformFrontend E2E Tests" type="KotlinJavaScriptTestRunnerProtractor" />
+      <toRun name="protractor.conf.js" type="JavaScriptTestRunnerProtractor" />
       <method v="2" />
     </configuration>
     <configuration name="BiddingPlatform" type="CompoundRunConfigurationType">
@@ -786,6 +706,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="protractor.conf.js" type="JavaScriptTestRunnerProtractor" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/BiddingPlatformFrontend/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/BiddingPlatformFrontend/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="BiddingPlatformAPI" />
       <option name="VM_PARAMETERS" />
@@ -798,15 +727,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="BiddingPlatformFrontend E2E Tests" type="KotlinJavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="$PROJECT_DIR$/BiddingPlatformFrontend/e2e/protractor.conf.js" />
-      <test-file value="" />
-      <selenium-address value="" />
-      <extra-protractor-options value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <module name="BiddingPlatformAPI" />
@@ -862,6 +782,7 @@
       <item itemvalue="Compound.BiddingPlatform Tests" />
       <item itemvalue="JUnit.BiddingPlatFromAPI Unit Tests" />
       <item itemvalue="npm.BiddingPlatformFrontend" />
+      <item itemvalue="Protractor.protractor.conf.js" />
       <item itemvalue="Spring Boot.BiddingPlatformAPI" />
     </list>
   </component>
@@ -901,7 +822,12 @@
       <workItem from="1544889707039" duration="12220000" />
       <workItem from="1544930859994" duration="171000" />
       <workItem from="1544959217257" duration="645000" />
-      <workItem from="1544978093507" duration="19278000" />
+      <workItem from="1544978093507" duration="19439000" />
+      <workItem from="1545327564287" duration="18000" />
+      <workItem from="1545327632669" duration="1272000" />
+      <workItem from="1545567923621" duration="87000" />
+      <workItem from="1545865382588" duration="231000" />
+      <workItem from="1545865932537" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -994,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545018792949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Database design fix (TransactionEntity)">
+      <created>1545022116894</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1545022116894</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1009,7 +942,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92750000" />
+    <option name="totallyTimeSpent" value="96141000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1024,13 +957,13 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.806489" visible="true" weight="0.28219396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.801854" visible="true" weight="0.28219396" />
       <window_info id="Structure" order="1" sideWeight="0.08574739" side_tool="true" weight="0.28219396" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Persistence" order="6" sideWeight="0.19351101" side_tool="true" visible="true" weight="0.28219396" />
+      <window_info id="Persistence" order="6" sideWeight="0.198146" side_tool="true" visible="true" weight="0.28219396" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880764" weight="0.32969603" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" visible="true" weight="0.32735777" />
@@ -1172,23 +1105,10 @@
     <MESSAGE value="Further database changes" />
     <MESSAGE value="Fixed Hibernate entities' issues (Object to UUID)" />
     <MESSAGE value="Working frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working frontend" />
+    <MESSAGE value="Database design fix (TransactionEntity)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database design fix (TransactionEntity)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformFrontend/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1206,160 +1126,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/watchlist">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/shipping">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/review">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/photo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payout">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/message">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_photos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/fee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/discount">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/country">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart_orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/card">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/blacklist">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/bid">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/admin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/address">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/watchlist" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/shipping" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/review" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/photo" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payout" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/message" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item_photos" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/item" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/fee" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/discount" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/country" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/client" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/category" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart_orders" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/card" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/blacklist" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/bid" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/admin" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/address" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/cart" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/payment" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/repositories/ClientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1424,13 +1212,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/transaction">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/transaction" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/CartOrdersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1517,7 +1299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/OrderEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state>
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1527,21 +1309,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PaymentEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
+        <state relative-caret-position="800">
           <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PayoutEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
+        <state relative-caret-position="850">
           <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/PhotoEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
+        <state relative-caret-position="375">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1561,7 +1343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/ShippingEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
+        <state relative-caret-position="375">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1581,12 +1363,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/WatchlistEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="432">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="198" column="49" selection-start-line="198" selection-start-column="49" selection-end-line="198" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
