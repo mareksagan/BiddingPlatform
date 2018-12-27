@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BiddingPlatform/BiddingPlatform.iml" filepath="$PROJECT_DIR$/BiddingPlatform/BiddingPlatform.iml" />
       <module fileurl="file://$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" filepath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BiddingPlatformFrontend/BiddingPlatformFrontend.iml" filepath="$PROJECT_DIR$/BiddingPlatformFrontend/BiddingPlatformFrontend.iml" />
     </modules>
   </component>
 </project>

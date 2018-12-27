@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Doctra-Frontend": {
+    "BiddingPlatform": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Doctra-Frontend",
+            "outputPath": "dist/BiddingPlatform",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Doctra-Frontend:build"
+            "browserTarget": "BiddingPlatform:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Doctra-Frontend:build:production"
+              "browserTarget": "BiddingPlatform:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Doctra-Frontend:build"
+            "browserTarget": "BiddingPlatform:build"
           }
         },
         "test": {
@@ -97,7 +97,7 @@
         }
       }
     },
-    "Doctra-Frontend-e2e": {
+    "BiddingPlatform-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -105,11 +105,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Doctra-Frontend:serve"
+            "devServerTarget": "BiddingPlatform:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Doctra-Frontend:serve:production"
+              "devServerTarget": "BiddingPlatform:serve:production"
             }
           }
         },
@@ -125,5 +125,5 @@
       }
     }
   },
-  "defaultProject": "Doctra-Frontend"
+  "defaultProject": "BiddingPlatform"
 }

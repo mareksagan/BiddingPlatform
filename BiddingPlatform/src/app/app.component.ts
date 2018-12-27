@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'the Bidding Platform';
+  title = 'BiddingPlatform';
   client = null;
 
   constructor(private http: HttpClient){
