@@ -1,36 +1,10 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <img src="../favicon.ico"/>
-    <span>BiddingPlatform</span>
-
-    <span class="spacer"></span>
-
-    <form class="search-form">
-      <mat-form-field class="search-full-width">
-        <input matInput>
-      </mat-form-field>
-    </form>
-
-    <span class="spacer"></span>
-
-    <mat-icon mat-button [matMenuTriggerFor]="menu">list</mat-icon>
-    <mat-menu #menu="matMenu">
-      <!--<button mat-menu-item>{{client.email}}</button>-->
-      <button mat-menu-item>Item 2</button>
-    </mat-menu>
-
-  </mat-toolbar-row>
-</mat-toolbar>
-
-<app-dashb></app-dashb>
+<app-menu></app-menu>
+<app-items></app-items>
 
 <app-register></app-register>
 
-<app-tree></app-tree>
 
-<address></address>
+<app-zorrogrid></app-zorrogrid>
+<app-zorroregister></app-zorroregister>
 
-
-
-
+<app-layout></app-layout>
