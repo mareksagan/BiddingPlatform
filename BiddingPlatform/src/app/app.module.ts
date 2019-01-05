@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
+import { RouterModule } from '@angular/router';
 
 import { PathsModule } from './base/paths/paths.module'
 import { CategoriesComponent } from './base/categories/categories.component';
@@ -36,7 +37,8 @@ import { MenuComponent } from './components/menu/menu.component';
     LayoutModule,
     PathsModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

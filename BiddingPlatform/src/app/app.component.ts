@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { PathsModule } from './base/paths/paths.module'
 
 @Component({
   selector: 'app-root',

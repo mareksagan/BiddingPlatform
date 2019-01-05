@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Added NG-ZORRO support">
+    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Added new frontend components">
+      <change afterPath="$PROJECT_DIR$/BiddingPlatform/src/theme.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiddingPlatform/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/dashb/dashb.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/dashb/dashb.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/dashb/dashb.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/dashb/dashb.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/example-data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/tree.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/tree.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/tree.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/tree.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table-datasource.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/paths/paths-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/paths/paths.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
     <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
@@ -330,41 +309,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="25">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/ng-zorro/ng-zorro.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="825">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#nz-header#0;n#nz-layout#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#nz-sider#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
@@ -374,6 +329,53 @@
                 <element signature="n#style#0;n#nz-content#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/layout/layout.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-130" />
           </provider>
         </entry>
       </file>
@@ -389,38 +391,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/layout/layout.component.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.spec.ts">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#77#0" expanded="true" />
+                <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -451,8 +441,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AddressEntity.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/AdminEntity.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BidEntity.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/entities/BlacklistEntity.java" />
@@ -477,7 +465,6 @@
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/Configuration.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/CustomConfiguration.java" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java" />
-        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.spec.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/e2e/src/app.e2e-spec.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/index.html" />
@@ -494,14 +481,17 @@
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/tree/tree.component.html" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/paths/paths-routing.module.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.ts" />
-        <option value="$PROJECT_DIR$/BiddingPlatform/angular.json" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/zorroregister/zorroregister.component.html" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/zorroregister/zorroregister.component.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/base/ng-zorro/ng-zorro.module.ts" />
+        <option value="$PROJECT_DIR$/BiddingPlatform/src/theme.less" />
+        <option value="$PROJECT_DIR$/BiddingPlatform/angular.json" />
+        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" />
+        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.ts" />
+        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" />
-        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" />
       </list>
     </option>
   </component>
@@ -517,8 +507,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="141" />
-    <option name="y" value="394" />
+    <option name="x" value="759" />
+    <option name="y" value="605" />
     <option name="width" value="1565" />
     <option name="height" value="1400" />
   </component>
@@ -560,14 +550,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="ng-zorro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="paths" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -576,14 +558,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
@@ -600,30 +574,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="zorrogrid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="zorroregister" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
@@ -899,7 +849,13 @@
       <workItem from="1545873255847" duration="3500000" />
       <workItem from="1545927190099" duration="2357000" />
       <workItem from="1546232704008" duration="22263000" />
-      <workItem from="1546361401557" duration="16850000" />
+      <workItem from="1546361401557" duration="16944000" />
+      <workItem from="1546417240499" duration="12000" />
+      <workItem from="1546417501549" duration="23000" />
+      <workItem from="1546544294069" duration="534000" />
+      <workItem from="1546544841276" duration="1045000" />
+      <workItem from="1546601251575" duration="655000" />
+      <workItem from="1546604610964" duration="10223000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -1041,7 +997,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546372861948</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Frontend structure redesign">
+      <created>1546392656108</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546392656108</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added new frontend components">
+      <created>1546392708260</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1546392708260</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1056,7 +1026,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143137000" />
+    <option name="totallyTimeSpent" value="155723000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1069,17 +1039,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79837775" visible="true" weight="0.28219396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7906977" visible="true" weight="0.28219396" />
       <window_info id="Structure" order="1" sideWeight="0.08574739" side_tool="true" weight="0.28219396" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Persistence" order="6" sideWeight="0.20162225" side_tool="true" visible="true" weight="0.28219396" />
+      <window_info id="Persistence" order="6" sideWeight="0.20930232" side_tool="true" visible="true" weight="0.28219396" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880764" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" visible="true" weight="0.32735777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.32735777" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27591583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1088,7 +1059,7 @@
       <window_info anchor="bottom" id="Analysis" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5019873" side_tool="true" weight="0.32735777" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32969603" />
@@ -1105,7 +1076,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.18402226" />
-      <window_info anchor="right" id="Database" order="6" weight="0.22615263" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.22615263" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="PlantUML" order="8" weight="0.3298887" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298887" />
@@ -1225,15 +1196,11 @@
     <MESSAGE value="Added the database creation script" />
     <MESSAGE value="Changed the favicon" />
     <MESSAGE value="Added NG-ZORRO support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added NG-ZORRO support" />
+    <MESSAGE value="Frontend structure redesign" />
+    <MESSAGE value="Added new frontend components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new frontend components" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/categories/categories.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/register/register.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/paths/routing-routing.module.ts" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/paths/routing.module.ts" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app-routing.module.ts" />
@@ -1252,68 +1219,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.ts" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.css" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.ts" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.ts" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/zorrogrid/zorrogrid.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1325,18 +1237,8 @@
         <state relative-caret-position="-2615" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/BiddingPlatform.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/zorroregister/zorroregister.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1374,24 +1276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.css" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1419,46 +1304,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.html" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.html" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/tree.component.html" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.html" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/dashb/dashb.component.html" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/ng-zorro/ng-zorro.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#nz-header#0;n#nz-layout#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nz-sider#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#nz-sider#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nz-breadcrumb#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nz-content#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="50">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/table/table.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/layout/layout.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/address/address.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/tree/tree.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/sidenav/sidenav.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/dashb/dashb.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="676">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1471,59 +1439,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/ng-zorro/ng-zorro.module.ts">
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/layout/layout.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-130" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="225">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/items/items.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#nz-header#0;n#nz-layout#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nz-sider#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#nz-sider#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nz-breadcrumb#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nz-content#0;n#nz-layout#0;n#nz-layout#0;n#nz-layout#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
