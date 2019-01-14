@@ -9,25 +9,26 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { RouterModule } from '@angular/router';
 
 import { PathsModule } from './base/paths/paths.module'
-import { CategoriesComponent } from './base/categories/categories.component';
+import { HomeComponent } from './base/home/home.component';
 import { RegisterComponent } from './components/register/register.component';
-import { ZorrogridComponent } from './components/zorrogrid/zorrogrid.component';
-import { ZorroregisterComponent } from './components/zorroregister/zorroregister.component';
+import { GridComponent } from './components/grid/grid.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LayoutComponent } from './components/layout/layout.component';
 import { ItemsComponent } from './components/items/items.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoriesComponent,
+    HomeComponent,
     RegisterComponent,
-    ZorrogridComponent,
-    ZorroregisterComponent,
+    GridComponent,
+    RegisterComponent,
     LayoutComponent,
     ItemsComponent,
-    MenuComponent
+    MenuComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

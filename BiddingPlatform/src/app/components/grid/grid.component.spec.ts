@@ -1,17 +1,17 @@
 import { fakeAsync, ComponentFixture, TestBed } from '@angular/core/testing';
-import { ZorrogridComponent } from './zorrogrid.component';
+import { GridComponent } from './grid.component';
 
-describe('ZorrogridComponent', () => {
-  let component: ZorrogridComponent;
-  let fixture: ComponentFixture<ZorrogridComponent>;
+describe('GridComponent', () => {
+  let component: GridComponent;
+  let fixture: ComponentFixture<GridComponent>;
 
   beforeEach(fakeAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ZorrogridComponent ]
+      declarations: [ GridComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ZorrogridComponent);
+    fixture = TestBed.createComponent(GridComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

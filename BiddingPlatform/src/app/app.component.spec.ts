@@ -13,9 +13,9 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'Bidding Platform'`, async(() => {
+  it(`should have as title 'BiddingPlatform'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Bidding Platform');
+    expect(app.title).toEqual('BiddingPlatform');
   }));
 });
