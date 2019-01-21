@@ -40,6 +40,42 @@ export class ItemsComponent implements OnInit, OnDestroy {
         {
           title: 'BF 4',
         },
+        {
+          title: 'BF 3',
+        },
+        {
+          title: 'BF 4',
+        },
+        {
+          title: 'BF 1',
+        },
+        {
+          title: 'BF 2',
+        },
+        {
+          title: 'BF 3',
+        },
+        {
+          title: 'BF 4',
+        },
+        {
+          title: 'BF 3',
+        },
+        {
+          title: 'BF 1',
+        },
+        {
+          title: 'BF 2',
+        },
+        {
+          title: 'BF 3',
+        },
+        {
+          title: 'BF 4',
+        },
+        {
+          title: 'BF 3',
+        }
       ];
     }
     else {

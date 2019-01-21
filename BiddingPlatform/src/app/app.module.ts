@@ -17,6 +17,11 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { ItemsComponent } from './components/items/items.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { AboutComponent } from './components/about/about.component';
+import { ItemComponent } from './components/item/item.component';
+import { SettingsComponent } from './components/settings/settings.component';
+import { CartComponent } from './components/cart/cart.component';
+import { MessagesComponent } from './components/messages/messages.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { AboutComponent } from './components/about/about.component';
     LayoutComponent,
     ItemsComponent,
     MenuComponent,
-    AboutComponent
+    AboutComponent,
+    ItemComponent,
+    SettingsComponent,
+    CartComponent,
+    MessagesComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

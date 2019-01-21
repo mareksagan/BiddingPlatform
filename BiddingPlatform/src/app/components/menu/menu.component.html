@@ -1,19 +1,31 @@
 <nz-layout class="layout">
   <nz-header style="background:darkorange;">
-    <div class="logo"></div>
-    <ul nz-menu [nzTheme]="'light'" [nzMode]="'horizontal'" style="line-height: 64px; background:darkorange;">
+    <ul nz-menu [nzTheme]="'light'" [nzMode]="'horizontal'"  style="line-height: 64px; background:darkorange;">
       <li nz-menu-item>
         <a routerLink="/home"><img src="../../../favicon.ico"/> <b>BiddingPlatform</b></a>
       </li>
-      <li nz-menu-item>nav 2</li>
-      <li nz-menu-item><a routerLink="/about">About us</a></li>
+      <li nz-menu-item style="width: 50px"></li>
+      <li nz-menu-item>
+        <nz-input-group [nzSuffix]="suffixIconSearch">
+          <input type="text" nz-input placeholder="Search the items" nzSize="large">
+        </nz-input-group>
+        <ng-template #suffixIconSearch>
+          <i nz-icon type="search"></i>
+        </ng-template>
+      </li>
+      <li nz-menu-item style="width: 50px"></li>
+      <li nz-menu-item>Login</li>
+      <li nz-menu-item>Cart</li>
+      <li nz-menu-item>Settings</li>
+      <li nz-menu-item><a routerLink="/about">About</a></li>
     </ul>
+
   </nz-header>
   <nz-layout>
     <nz-sider [nzWidth]="200" style="background:#fff">
       <ul nz-menu [nzMode]="'inline'" style="height:100%;">
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Electronics</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="mobile"></i>Electronics</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -27,7 +39,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Fashion</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="shopping"></i>Fashion</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -35,7 +47,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span  (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Grocery</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="coffee"></i>Food</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -43,7 +55,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Health</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="smile"></i>Health</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -51,7 +63,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Sports</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="trophy"></i>Sports</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -59,7 +71,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Books</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="read"></i>Books</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -67,7 +79,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i>Vehicles</span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="car"></i>Vehicles</span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>
@@ -75,7 +87,7 @@
           </ul>
         </li>
         <li nz-submenu>
-          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="fire"></i><b>Black Friday</b></span>
+          <span (click)="goToUrl('/blackfriday')" title><i nz-icon type="thunderbolt"></i><b>Sale</b></span>
           <ul>
             <li nz-menu-item>Best deals</li>
             <li nz-menu-item>Popular choices</li>

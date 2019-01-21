@@ -6,12 +6,14 @@ import {HomeComponent} from "../home/home.component";
 import {GridComponent} from "../../components/grid/grid.component";
 import {LayoutComponent} from "../../components/layout/layout.component";
 import {AboutComponent} from "../../components/about/about.component";
+import {ItemComponent} from "../../components/item/item.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'signup', component: RegisterComponent },
   { path: 'items/:category', component: ItemsComponent },
+  { path: 'item/:id', component: ItemComponent },
   { path: 'grid', component: GridComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'layout', component: LayoutComponent },

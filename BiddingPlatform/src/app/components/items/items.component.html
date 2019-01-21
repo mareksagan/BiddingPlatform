@@ -1,13 +1,14 @@
 
-  <nz-list [nzDataSource]="data" [nzRenderItem]="item" [nzGrid]="{gutter: 16, span: 6}">
+  <nz-list [nzDataSource]="data" [nzRenderItem]="item" [nzGrid]="{gutter: 16, span: 4}">
     <ng-template #item let-item>
       <nz-list-item [nzContent]="nzContent">
         <ng-template #nzContent>
           <nz-card [nzTitle]="item.title">
-            Card content
+            Click to buy {{item.title}} now!
+            <br/><br/>
+            More...
           </nz-card>
         </ng-template>
       </nz-list-item>
     </ng-template>
   </nz-list>
-  
