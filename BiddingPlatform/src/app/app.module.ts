@@ -11,15 +11,13 @@ import { RouterModule } from '@angular/router';
 import { PathsModule } from './base/paths/paths.module'
 import { HomeComponent } from './base/home/home.component';
 import { RegisterComponent } from './components/register/register.component';
-import { GridComponent } from './components/grid/grid.component';
+import { CartComponent } from './components/cart/cart.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { LayoutComponent } from './components/layout/layout.component';
 import { ItemsComponent } from './components/items/items.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { AboutComponent } from './components/about/about.component';
 import { ItemComponent } from './components/item/item.component';
 import { SettingsComponent } from './components/settings/settings.component';
-import { CartComponent } from './components/cart/cart.component';
 import { MessagesComponent } from './components/messages/messages.component';
 import { AdminComponent } from './components/admin/admin.component';
 
@@ -28,15 +26,13 @@ import { AdminComponent } from './components/admin/admin.component';
     AppComponent,
     HomeComponent,
     RegisterComponent,
-    GridComponent,
+    CartComponent,
     RegisterComponent,
-    LayoutComponent,
     ItemsComponent,
     MenuComponent,
     AboutComponent,
     ItemComponent,
     SettingsComponent,
-    CartComponent,
     MessagesComponent,
     AdminComponent
   ],
