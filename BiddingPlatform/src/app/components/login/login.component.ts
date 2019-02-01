@@ -8,11 +8,11 @@ import {
 
 @Component({
   selector: 'app-zorroregister',
-  templateUrl: './register.component.html',
+  templateUrl: './login.component.html',
 
-  styleUrls: ['./register.component.css']
+  styleUrls: ['./login.component.css']
 })
-export class RegisterComponent implements OnInit {
+export class LoginComponent implements OnInit {
   validateForm: FormGroup;
 
   submitForm(): void {

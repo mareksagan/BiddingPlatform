@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
 
 import { PathsModule } from './base/paths/paths.module'
 import { HomeComponent } from './base/home/home.component';
-import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 import { CartComponent } from './components/cart/cart.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ItemsComponent } from './components/items/items.component';
@@ -25,9 +25,8 @@ import { AdminComponent } from './components/admin/admin.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    RegisterComponent,
+    LoginComponent,
     CartComponent,
-    RegisterComponent,
     ItemsComponent,
     MenuComponent,
     AboutComponent,
