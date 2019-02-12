@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Refactored the frontend application component structure">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/controllers/UserControllerTest.java" afterDir="false" />
+    <list default="true" id="d08e9aa3-1d0e-490c-ad50-84b879ffe648" name="Default Changelist" comment="Added unit test support">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/register/register.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/login/login.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/register/register.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/login/login.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatform/src/app/components/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatform/src/app/components/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/BiddingPlatformAPI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BiddingPlatform-API/target/" />
     <ignored path="$PROJECT_DIR$/BiddingPlatformAPI/target/" />
@@ -95,68 +88,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/repositories/ClientRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="125">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/controllers/UserControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/protractor.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.po.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/tsconfig.e2e.json">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiddingPlatform/tslint.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1188" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.e2e-spec.ts">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.e2e-spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -259,9 +252,9 @@
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/base/paths/paths-routing.module.ts" />
         <option value="$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.html" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" />
         <option value="$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/controllers/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/BiddingPlatform/e2e/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/BiddingPlatformAPI/pom.xml" />
       </list>
     </option>
   </component>
@@ -287,6 +280,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BiddingPlatform" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BiddingPlatformAPI" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -427,22 +431,6 @@
               <item name="biddingplatform" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BiddingPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BiddingPlatform" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BiddingPlatformAPI" type="616d4139:PackageViewModuleNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -450,7 +438,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;h2" />
     <property name="JPA.DatabaseSchemaImportDialog" value="b83cba3b-d7ab-43c3-9893-1f113f919415" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -470,10 +458,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="sql.rename.search.for.storage.occurrences" value="true" />
     <property name="ts.external.directory.path" value="C:\Users\Marek\Desktop\BiddingPlatform\BiddingPlatform\node_modules\typescript\lib" />
   </component>
@@ -515,7 +503,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Protractor.E2E Tests">
+  <component name="RunManager" selected="Compound.Run">
     <configuration name="Run" type="CompoundRunConfigurationType">
       <toRun name="BiddingPlatformAPI" type="SpringBootApplicationConfigurationType" />
       <toRun name="BiddingPlatform" type="js.build_tools.npm" />
@@ -654,7 +642,19 @@
       <workItem from="1549061136918" duration="3000" />
       <workItem from="1549063059517" duration="198000" />
       <workItem from="1549063280851" duration="109000" />
-      <workItem from="1549063403525" duration="1027000" />
+      <workItem from="1549063403525" duration="3427000" />
+      <workItem from="1549119209104" duration="3000" />
+      <workItem from="1549119215630" duration="2000" />
+      <workItem from="1549119267553" duration="1462000" />
+      <workItem from="1549187637539" duration="146000" />
+      <workItem from="1549187979135" duration="561000" />
+      <workItem from="1549188650583" duration="3000" />
+      <workItem from="1549308654091" duration="51000" />
+      <workItem from="1549314227213" duration="799000" />
+      <workItem from="1549389553785" duration="598000" />
+      <workItem from="1549392662018" duration="21000" />
+      <workItem from="1549986858959" duration="985000" />
+      <workItem from="1549988545419" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544042510829</created>
@@ -845,31 +845,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548056492567</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added unit test support">
+      <created>1549064685293</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1549064685293</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BiddingPlatform_E2E_Tests - 2018.12.05 at 23h 06m 13s.xml">
-      <configuration name="BiddingPlatform E2E Tests" configurationId="KotlinJavaScriptTestRunnerProtractor" />
-    </history-entry>
-    <history-entry file="API_Unit_Tests - 2019.02.02 at 00h 29m 41s.xml">
-      <configuration name="API Unit Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="API_Unit_Tests - 2019.02.02 at 00h 30m 31s.xml">
-      <configuration name="API Unit Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="E2E_Tests - 2019.02.02 at 00h 30m 38s.xml">
-      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
-    </history-entry>
-    <history-entry file="E2E_Tests - 2019.02.02 at 00h 34m 21s.xml">
-      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
-    </history-entry>
-    <history-entry file="E2E_Tests - 2019.02.02 at 00h 35m 46s.xml">
-      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
-    </history-entry>
-    <history-entry file="E2E_Tests - 2019.02.02 at 00h 36m 25s.xml">
-      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
-    </history-entry>
     <history-entry file="E2E_Tests - 2019.02.02 at 00h 38m 11s.xml">
       <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
     </history-entry>
@@ -879,9 +865,30 @@
     <history-entry file="E2E_Tests - 2019.02.02 at 00h 38m 33s.xml">
       <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
     </history-entry>
+    <history-entry file="E2E_Tests - 2019.02.02 at 00h 41m 01s.xml">
+      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
+    </history-entry>
+    <history-entry file="E2E_Tests - 2019.02.02 at 00h 42m 59s.xml">
+      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
+    </history-entry>
+    <history-entry file="E2E_Tests - 2019.02.02 at 00h 43m 15s.xml">
+      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
+    </history-entry>
+    <history-entry file="API_Unit_Tests - 2019.02.02 at 00h 46m 49s.xml">
+      <configuration name="API Unit Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="E2E_Tests - 2019.02.02 at 00h 46m 50s.xml">
+      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
+    </history-entry>
+    <history-entry file="API_Unit_Tests - 2019.02.12 at 18h 19m 59s.xml">
+      <configuration name="API Unit Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="E2E_Tests - 2019.02.12 at 18h 20m 00s.xml">
+      <configuration name="E2E Tests" configurationId="JavaScriptTestRunnerProtractor" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233240000" />
+    <option name="totallyTimeSpent" value="242546000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -896,13 +903,13 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76013905" visible="true" weight="0.20906201" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7497103" visible="true" weight="0.20906201" />
       <window_info id="Structure" order="1" sideWeight="0.08574739" side_tool="true" weight="0.28219396" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Persistence" order="6" sideWeight="0.23986095" side_tool="true" visible="true" weight="0.20906201" />
+      <window_info id="Persistence" order="6" sideWeight="0.25028968" side_tool="true" visible="true" weight="0.20906201" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880764" weight="0.32969603" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49801272" visible="true" weight="0.32735777" />
@@ -931,7 +938,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.18402226" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16772655" />
+      <window_info anchor="right" id="Database" order="6" weight="0.16772655" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="PlantUML" order="8" weight="0.3298887" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298887" />
@@ -1058,41 +1065,10 @@
     <MESSAGE value="Added the categories support to the ItemsComponent" />
     <MESSAGE value="Completed the frontend application component structure" />
     <MESSAGE value="Refactored the frontend application component structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the frontend application component structure" />
+    <MESSAGE value="Added unit test support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unit test support" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/browserslist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/about/about.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/menu/menu.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatform/src/app/components/item/item.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1285,20 +1261,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/DemoApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/UserControllerTest.java" />
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/repositories/ClientRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1310,6 +1272,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/controllers/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cc51e949-9433-4880-9bd0-2dd9bc6ea0a5/database/biddingplatformdb/schema/public/table/discount" />
+    <entry file="das://b83cba3b-d7ab-43c3-9893-1f113f919415/database/biddingplatformdb/schema/public/table/order" />
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/protractor.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/tsconfig.e2e.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.po.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/ItemsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.e2e-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1332,50 +1353,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/logic/controllers/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="325">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/db/repositories/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/WebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/main/java/com/biddingplatform/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-        </state>
-      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatformAPI/src/test/java/com/biddingplatform/logic/controllers/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.e2e-spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/src/app.po.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/tsconfig.e2e.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiddingPlatform/e2e/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1419,7 +1427,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>Oracle JDK 8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1431,7 +1439,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|BiddingPlatformAPI</last-edited>
+          <last-edited>BiddingPlatformAPI</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

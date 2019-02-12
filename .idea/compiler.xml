@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BiddingPlatformAPI" target="10" />
+      <module name="BiddingPlatformAPI" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
