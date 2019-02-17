@@ -29,28 +29,5 @@
         <mapping class="com.biddingplatform.db.entities.ShippingEntity"/>
         <mapping class="com.biddingplatform.db.entities.TransactionEntity"/>
         <mapping class="com.biddingplatform.db.entities.WatchlistEntity"/>
-        <mapping resource="com/biddingplatform/db/entities/AddressEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/AdminEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/BidEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/BlacklistEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/CardEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/CartEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/CartOrdersEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/CategoryEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/ClientEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/CountryEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/DiscountEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/FeeEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/ItemEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/ItemPhotosEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/MessageEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/OrderEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/PaymentEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/PayoutEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/PhotoEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/ReviewEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/ShippingEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/TransactionEntity.hbm.xml"/>
-        <mapping resource="com/biddingplatform/db/entities/WatchlistEntity.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

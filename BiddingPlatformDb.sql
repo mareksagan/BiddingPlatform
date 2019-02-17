@@ -15,6 +15,7 @@ SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
 
+DROP DATABASE IF EXISTS biddingplatformdb;
 --
 -- Name: biddingplatformdb; Type: DATABASE; Schema: -; Owner: postgres
 --
@@ -380,236 +381,190 @@ ALTER TABLE public.watchlist OWNER TO postgres;
 -- Data for Name: address; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.address (street, building, apartment, city, country_id, id) FROM stdin;
-Na porici	5	4	Prague	2	bcc782c4-4881-43bf-be63-74e1044e0bbd
-Rakowiecka	7	6	Warsaw	1	2872fbb6-0391-479b-b84d-2f09efa31f43
-Las Palmas	80	1	San Jose	3	8c1bb582-fa77-4365-bc6a-5595f270cb07
-\.
+INSERT INTO public.address (street, building, apartment, city, country_id, id) VALUES ('Na porici', 5, 4, 'Prague', 2, 'bcc782c4-4881-43bf-be63-74e1044e0bbd');
+INSERT INTO public.address (street, building, apartment, city, country_id, id) VALUES ('Rakowiecka', 7, 6, 'Warsaw', 1, '2872fbb6-0391-479b-b84d-2f09efa31f43');
+INSERT INTO public.address (street, building, apartment, city, country_id, id) VALUES ('Las Palmas', 80, 1, 'San Jose', 3, '8c1bb582-fa77-4365-bc6a-5595f270cb07');
 
 
 --
 -- Data for Name: admin; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.admin (id, first_name, last_name, email, password) FROM stdin;
-111d5e65-e21f-4c00-982e-a7cb40da6710	Marek	Sagan	marek.sagan@protonmail.com	password
-\.
+INSERT INTO public.admin (id, first_name, last_name, email, password) VALUES ('111d5e65-e21f-4c00-982e-a7cb40da6710', 'Marek', 'Sagan', 'marek.sagan@protonmail.com', 'password');
 
 
 --
 -- Data for Name: bid; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.bid ("timestamp", amount, id, client_id, item_id) FROM stdin;
-2018-12-17 04:06:36.922975	12	e481ba2f-1251-4298-ab2b-00b756db6134	4ec24d84-43c6-4978-984c-42773ce7b8e9	2d5136f3-4ade-448c-bbd5-f101be83a49a
-2018-12-17 04:06:36.922975	15	e7968f1e-5f33-480f-bb70-ec89abb9bced	2872fbb6-0391-479b-b84d-2f09efa31f43	2d5136f3-4ade-448c-bbd5-f101be83a49a
-\.
+INSERT INTO public.bid ("timestamp", amount, id, client_id, item_id) VALUES ('2018-12-17 04:06:36.922975', 12, 'e481ba2f-1251-4298-ab2b-00b756db6134', '4ec24d84-43c6-4978-984c-42773ce7b8e9', '2d5136f3-4ade-448c-bbd5-f101be83a49a');
+INSERT INTO public.bid ("timestamp", amount, id, client_id, item_id) VALUES ('2018-12-17 04:06:36.922975', 15, 'e7968f1e-5f33-480f-bb70-ec89abb9bced', '2872fbb6-0391-479b-b84d-2f09efa31f43', '2d5136f3-4ade-448c-bbd5-f101be83a49a');
 
 
 --
 -- Data for Name: blacklist; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.blacklist (client_id, blacklisted_client_id, id) FROM stdin;
-2872fbb6-0391-479b-b84d-2f09efa31f43	4ec24d84-43c6-4978-984c-42773ce7b8e9	4635a4db-b016-42c0-88c5-b8ec8647c6c7
-\.
+INSERT INTO public.blacklist (client_id, blacklisted_client_id, id) VALUES ('2872fbb6-0391-479b-b84d-2f09efa31f43', '4ec24d84-43c6-4978-984c-42773ce7b8e9', '4635a4db-b016-42c0-88c5-b8ec8647c6c7');
 
 
 --
 -- Data for Name: card; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.card (number, ccv, id, exp_year, exp_month) FROM stdin;
-5326452564952223	013	eac4c2f1-de8f-434a-b29e-9c308b681256	2027	8
-4808684913084643	368	028f2626-1b4f-4f99-9e2b-e04f268c4b6e	2027	9
-5289774609659900	788	fca727f5-ac58-4607-98c9-3820ef821246	2019	1
-\.
+INSERT INTO public.card (number, ccv, id, exp_year, exp_month) VALUES (5326452564952223, '013', 'eac4c2f1-de8f-434a-b29e-9c308b681256', 2027, 8);
+INSERT INTO public.card (number, ccv, id, exp_year, exp_month) VALUES (4808684913084643, '368', '028f2626-1b4f-4f99-9e2b-e04f268c4b6e', 2027, 9);
+INSERT INTO public.card (number, ccv, id, exp_year, exp_month) VALUES (5289774609659900, '788', 'fca727f5-ac58-4607-98c9-3820ef821246', 2019, 1);
 
 
 --
 -- Data for Name: cart; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.cart (id, client_id) FROM stdin;
-8858e9c4-d23f-45aa-a952-16e3d4582967	2872fbb6-0391-479b-b84d-2f09efa31f43
-\.
+INSERT INTO public.cart (id, client_id) VALUES ('8858e9c4-d23f-45aa-a952-16e3d4582967', '2872fbb6-0391-479b-b84d-2f09efa31f43');
 
 
 --
 -- Data for Name: cart_orders; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.cart_orders (id, cart_id, order_id) FROM stdin;
-17b72f24-079f-4b12-bb52-19bf8ffa4117	8858e9c4-d23f-45aa-a952-16e3d4582967	4e6fd7d0-8314-4014-bd37-f01535f3883b
-5279ab6f-978a-4f79-9db7-9ac421929fa1	8858e9c4-d23f-45aa-a952-16e3d4582967	fcaba228-3a77-44c0-8938-c88b961b72a1
-\.
+INSERT INTO public.cart_orders (id, cart_id, order_id) VALUES ('17b72f24-079f-4b12-bb52-19bf8ffa4117', '8858e9c4-d23f-45aa-a952-16e3d4582967', '4e6fd7d0-8314-4014-bd37-f01535f3883b');
+INSERT INTO public.cart_orders (id, cart_id, order_id) VALUES ('5279ab6f-978a-4f79-9db7-9ac421929fa1', '8858e9c4-d23f-45aa-a952-16e3d4582967', 'fcaba228-3a77-44c0-8938-c88b961b72a1');
 
 
 --
 -- Data for Name: category; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.category (name, partof, id) FROM stdin;
-Home	\N	2ceea620-0824-4f77-85d5-ad9b63563f70
-Garden	2ceea620-0824-4f77-85d5-ad9b63563f70	53254d4e-2b80-43c3-a1ec-0e2425c767af
-Black Friday	\N	606c3b44-f585-4ec7-91b7-4b773c432670
-\.
+INSERT INTO public.category (name, partof, id) VALUES ('Home', NULL, '2ceea620-0824-4f77-85d5-ad9b63563f70');
+INSERT INTO public.category (name, partof, id) VALUES ('Garden', '2ceea620-0824-4f77-85d5-ad9b63563f70', '53254d4e-2b80-43c3-a1ec-0e2425c767af');
+INSERT INTO public.category (name, partof, id) VALUES ('Black Friday', NULL, '606c3b44-f585-4ec7-91b7-4b773c432670');
 
 
 --
 -- Data for Name: client; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) FROM stdin;
-423ef4e8-2630-49bf-84f4-8e76a9d7447a	Marcin	Puchacki	\N	2872fbb6-0391-479b-b84d-2f09efa31f43	puchacz09@wp.pl	marcin02		\N	0
-2872fbb6-0391-479b-b84d-2f09efa31f43	Jiri	Drahos	\N	bcc782c4-4881-43bf-be63-74e1044e0bbd	jiridrah5453@seznam.cz	jiri02		\N	69
-4ec24d84-43c6-4978-984c-42773ce7b8e9	Luis	Sanchez	\N	8c1bb582-fa77-4365-bc6a-5595f270cb07	luiss345@mail.cr	luis02		\N	12
-\.
+INSERT INTO public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) VALUES ('423ef4e8-2630-49bf-84f4-8e76a9d7447a', 'Marcin', 'Puchacki', NULL, '2872fbb6-0391-479b-b84d-2f09efa31f43', 'puchacz09@wp.pl', 'marcin02', '', NULL, 0);
+INSERT INTO public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) VALUES ('2872fbb6-0391-479b-b84d-2f09efa31f43', 'Jiri', 'Drahos', NULL, 'bcc782c4-4881-43bf-be63-74e1044e0bbd', 'jiridrah5453@seznam.cz', 'jiri02', '', NULL, 69);
+INSERT INTO public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) VALUES ('4ec24d84-43c6-4978-984c-42773ce7b8e9', 'Luis', 'Sanchez', NULL, '8c1bb582-fa77-4365-bc6a-5595f270cb07', 'luiss345@mail.cr', 'luis02', '', NULL, 12);
 
 
 --
 -- Data for Name: country; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.country (name, id) FROM stdin;
-Czech Republic	1
-Poland	2
-Costa Rica	3
-\.
+INSERT INTO public.country (name, id) VALUES ('Czech Republic', 1);
+INSERT INTO public.country (name, id) VALUES ('Poland', 2);
+INSERT INTO public.country (name, id) VALUES ('Costa Rica', 3);
 
 
 --
 -- Data for Name: discount; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.discount (item_id, category_id, active, id, client_id, percentage) FROM stdin;
-\N	606c3b44-f585-4ec7-91b7-4b773c432670	t	5585be23-b147-41dd-82ef-30716dc87d57	\N	40
-\.
+INSERT INTO public.discount (item_id, category_id, active, id, client_id, percentage) VALUES (NULL, '606c3b44-f585-4ec7-91b7-4b773c432670', true, '5585be23-b147-41dd-82ef-30716dc87d57', NULL, 40);
 
 
 --
 -- Data for Name: fee; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.fee (id, category_id, percentage) FROM stdin;
-3488e84d-aaa6-4ab5-984b-323ab0a74541	2ceea620-0824-4f77-85d5-ad9b63563f70	1.5
-03ac5a8e-111f-4365-8df4-128c499af828	606c3b44-f585-4ec7-91b7-4b773c432670	1.75
-\.
+INSERT INTO public.fee (id, category_id, percentage) VALUES ('3488e84d-aaa6-4ab5-984b-323ab0a74541', '2ceea620-0824-4f77-85d5-ad9b63563f70', 1.5);
+INSERT INTO public.fee (id, category_id, percentage) VALUES ('03ac5a8e-111f-4365-8df4-128c499af828', '606c3b44-f585-4ec7-91b7-4b773c432670', 1.75);
 
 
 --
 -- Data for Name: item; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.item (id, seller_id, "desc", category_id, amount, price, due, active, height, length, width, weight, allow_bidding) FROM stdin;
-f2bfa094-2736-469f-b207-f474e2c03f28	4ec24d84-43c6-4978-984c-42773ce7b8e9	Lampa	606c3b44-f585-4ec7-91b7-4b773c432670	20	78	2018-12-15 17:21:30.147	t	23	5	5	4	f
-2d5136f3-4ade-448c-bbd5-f101be83a49a	423ef4e8-2630-49bf-84f4-8e76a9d7447a	Dildo	2ceea620-0824-4f77-85d5-ad9b63563f70	1	54	2018-12-15 17:21:30.147	t	23	5	5	0.232999995350837708	t
-45010957-7da2-4251-b98f-501981668bf7	423ef4e8-2630-49bf-84f4-8e76a9d7447a	Krzeslo	53254d4e-2b80-43c3-a1ec-0e2425c767af	20	56	2018-12-15 17:21:30.147	f	23	5	5	12	f
-\.
+INSERT INTO public.item (id, seller_id, "desc", category_id, amount, price, due, active, height, length, width, weight, allow_bidding) VALUES ('f2bfa094-2736-469f-b207-f474e2c03f28', '4ec24d84-43c6-4978-984c-42773ce7b8e9', 'Lampa', '606c3b44-f585-4ec7-91b7-4b773c432670', 20, 78, '2018-12-15 17:21:30.147', true, 23, 5, 5, 4, false);
+INSERT INTO public.item (id, seller_id, "desc", category_id, amount, price, due, active, height, length, width, weight, allow_bidding) VALUES ('2d5136f3-4ade-448c-bbd5-f101be83a49a', '423ef4e8-2630-49bf-84f4-8e76a9d7447a', 'Dildo', '2ceea620-0824-4f77-85d5-ad9b63563f70', 1, 54, '2018-12-15 17:21:30.147', true, 23, 5, 5, 0.232999995350837708, true);
+INSERT INTO public.item (id, seller_id, "desc", category_id, amount, price, due, active, height, length, width, weight, allow_bidding) VALUES ('45010957-7da2-4251-b98f-501981668bf7', '423ef4e8-2630-49bf-84f4-8e76a9d7447a', 'Krzeslo', '53254d4e-2b80-43c3-a1ec-0e2425c767af', 20, 56, '2018-12-15 17:21:30.147', false, 23, 5, 5, 12, false);
 
 
 --
 -- Data for Name: item_photos; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.item_photos (id, item_id, photo_id) FROM stdin;
-85269594-7b25-4695-ad5d-80172c8a6dd3	f2bfa094-2736-469f-b207-f474e2c03f28	30df055c-0521-4dd1-892c-13fc7dd44731
-e6141a97-3c2d-45aa-a251-b1a7f25a2ad4	2d5136f3-4ade-448c-bbd5-f101be83a49a	6663d71a-44b6-47f9-aa33-232e46267c5e
-f28ece88-7597-40f1-b551-17b06a50c9e5	45010957-7da2-4251-b98f-501981668bf7	6663d71a-44b6-47f9-aa33-232e46267c5e
-ab86eddd-2d87-4c64-9d04-e8c5675ef2c9	45010957-7da2-4251-b98f-501981668bf7	30df055c-0521-4dd1-892c-13fc7dd44731
-\.
+INSERT INTO public.item_photos (id, item_id, photo_id) VALUES ('85269594-7b25-4695-ad5d-80172c8a6dd3', 'f2bfa094-2736-469f-b207-f474e2c03f28', '30df055c-0521-4dd1-892c-13fc7dd44731');
+INSERT INTO public.item_photos (id, item_id, photo_id) VALUES ('e6141a97-3c2d-45aa-a251-b1a7f25a2ad4', '2d5136f3-4ade-448c-bbd5-f101be83a49a', '6663d71a-44b6-47f9-aa33-232e46267c5e');
+INSERT INTO public.item_photos (id, item_id, photo_id) VALUES ('f28ece88-7597-40f1-b551-17b06a50c9e5', '45010957-7da2-4251-b98f-501981668bf7', '6663d71a-44b6-47f9-aa33-232e46267c5e');
+INSERT INTO public.item_photos (id, item_id, photo_id) VALUES ('ab86eddd-2d87-4c64-9d04-e8c5675ef2c9', '45010957-7da2-4251-b98f-501981668bf7', '30df055c-0521-4dd1-892c-13fc7dd44731');
 
 
 --
 -- Data for Name: message; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.message (sender_id, receiver_id, text, id) FROM stdin;
-423ef4e8-2630-49bf-84f4-8e76a9d7447a	2872fbb6-0391-479b-b84d-2f09efa31f43	hey	0ebb8db4-31fc-4c4d-99cb-c55b7b63b3cd
-2872fbb6-0391-479b-b84d-2f09efa31f43	4ec24d84-43c6-4978-984c-42773ce7b8e9	hello	c83eff49-687e-4912-8379-94dfc57bda32
-4ec24d84-43c6-4978-984c-42773ce7b8e9	2872fbb6-0391-479b-b84d-2f09efa31f43	you moron	5f19bca6-2315-4daf-8c9f-307f1ff3ea1e
-4ec24d84-43c6-4978-984c-42773ce7b8e9	2872fbb6-0391-479b-b84d-2f09efa31f43	you idiot	89435e5f-b14b-4c8c-b772-ae5a9202a999
-\.
+INSERT INTO public.message (sender_id, receiver_id, text, id) VALUES ('423ef4e8-2630-49bf-84f4-8e76a9d7447a', '2872fbb6-0391-479b-b84d-2f09efa31f43', 'hey', '0ebb8db4-31fc-4c4d-99cb-c55b7b63b3cd');
+INSERT INTO public.message (sender_id, receiver_id, text, id) VALUES ('2872fbb6-0391-479b-b84d-2f09efa31f43', '4ec24d84-43c6-4978-984c-42773ce7b8e9', 'hello', 'c83eff49-687e-4912-8379-94dfc57bda32');
+INSERT INTO public.message (sender_id, receiver_id, text, id) VALUES ('4ec24d84-43c6-4978-984c-42773ce7b8e9', '2872fbb6-0391-479b-b84d-2f09efa31f43', 'you moron', '5f19bca6-2315-4daf-8c9f-307f1ff3ea1e');
+INSERT INTO public.message (sender_id, receiver_id, text, id) VALUES ('4ec24d84-43c6-4978-984c-42773ce7b8e9', '2872fbb6-0391-479b-b84d-2f09efa31f43', 'you idiot', '89435e5f-b14b-4c8c-b772-ae5a9202a999');
 
 
 --
 -- Data for Name: order; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public."order" (id, item_id, quantity) FROM stdin;
-4e6fd7d0-8314-4014-bd37-f01535f3883b	f2bfa094-2736-469f-b207-f474e2c03f28	2
-fcaba228-3a77-44c0-8938-c88b961b72a1	45010957-7da2-4251-b98f-501981668bf7	8
-\.
+INSERT INTO public."order" (id, item_id, quantity) VALUES ('4e6fd7d0-8314-4014-bd37-f01535f3883b', 'f2bfa094-2736-469f-b207-f474e2c03f28', 2);
+INSERT INTO public."order" (id, item_id, quantity) VALUES ('fcaba228-3a77-44c0-8938-c88b961b72a1', '45010957-7da2-4251-b98f-501981668bf7', 8);
 
 
 --
 -- Data for Name: payment; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.payment (id, "timestamp", total_amount, card_id) FROM stdin;
-c9e69031-426d-4cc2-b285-196c86248601	2018-12-14 00:06:36.451	12.3000001907348633	eac4c2f1-de8f-434a-b29e-9c308b681256
-0ae953e1-98c8-4cf1-a5ab-f3b0f958df3c	2018-12-11 00:05:43.609	11.4499998092651367	028f2626-1b4f-4f99-9e2b-e04f268c4b6e
-16f0cc8b-fd72-4b2b-a36f-65e29ccf80d2	2018-12-07 00:05:50.306	90	fca727f5-ac58-4607-98c9-3820ef821246
-\.
+INSERT INTO public.payment (id, "timestamp", total_amount, card_id) VALUES ('c9e69031-426d-4cc2-b285-196c86248601', '2018-12-14 00:06:36.451', 12.3000001907348633, 'eac4c2f1-de8f-434a-b29e-9c308b681256');
+INSERT INTO public.payment (id, "timestamp", total_amount, card_id) VALUES ('0ae953e1-98c8-4cf1-a5ab-f3b0f958df3c', '2018-12-11 00:05:43.609', 11.4499998092651367, '028f2626-1b4f-4f99-9e2b-e04f268c4b6e');
+INSERT INTO public.payment (id, "timestamp", total_amount, card_id) VALUES ('16f0cc8b-fd72-4b2b-a36f-65e29ccf80d2', '2018-12-07 00:05:50.306', 90, 'fca727f5-ac58-4607-98c9-3820ef821246');
 
 
 --
 -- Data for Name: payout; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.payout (id, bank_name, swift_nr, client_id, "timestamp", amount) FROM stdin;
-534bd321-5ebb-48fd-817b-672e0f538614	AirBank	4354553634	423ef4e8-2630-49bf-84f4-8e76a9d7447a	2018-12-15 16:54:09.871528	0
-\.
+INSERT INTO public.payout (id, bank_name, swift_nr, client_id, "timestamp", amount) VALUES ('534bd321-5ebb-48fd-817b-672e0f538614', 'AirBank', 4354553634, '423ef4e8-2630-49bf-84f4-8e76a9d7447a', '2018-12-15 16:54:09.871528', 0);
 
 
 --
 -- Data for Name: photo; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.photo (id, url, height, width) FROM stdin;
-30df055c-0521-4dd1-892c-13fc7dd44731	https://d3f650ayx9w00n.cloudfront.net/940/54359-002.jpg	300	600
-6663d71a-44b6-47f9-aa33-232e46267c5e	https://d3f650ayx9w00n.cloudfront.net/940/54359-062.jpg	\N	\N
-\.
+INSERT INTO public.photo (id, url, height, width) VALUES ('30df055c-0521-4dd1-892c-13fc7dd44731', 'https://d3f650ayx9w00n.cloudfront.net/940/54359-002.jpg', 300, 600);
+INSERT INTO public.photo (id, url, height, width) VALUES ('6663d71a-44b6-47f9-aa33-232e46267c5e', 'https://d3f650ayx9w00n.cloudfront.net/940/54359-062.jpg', NULL, NULL);
 
 
 --
 -- Data for Name: review; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.review (item_id, reviewer_id, text, id, stars) FROM stdin;
-2d5136f3-4ade-448c-bbd5-f101be83a49a	2872fbb6-0391-479b-b84d-2f09efa31f43	OK	58610f5e-96fd-4af4-8d71-512df6a757dc	2
-2d5136f3-4ade-448c-bbd5-f101be83a49a	4ec24d84-43c6-4978-984c-42773ce7b8e9	Alright	af7d5823-f37f-49dd-9e42-e0c41dc64c9b	3
-\.
+INSERT INTO public.review (item_id, reviewer_id, text, id, stars) VALUES ('2d5136f3-4ade-448c-bbd5-f101be83a49a', '2872fbb6-0391-479b-b84d-2f09efa31f43', 'OK', '58610f5e-96fd-4af4-8d71-512df6a757dc', 2);
+INSERT INTO public.review (item_id, reviewer_id, text, id, stars) VALUES ('2d5136f3-4ade-448c-bbd5-f101be83a49a', '4ec24d84-43c6-4978-984c-42773ce7b8e9', 'Alright', 'af7d5823-f37f-49dd-9e42-e0c41dc64c9b', 3);
 
 
 --
 -- Data for Name: shipping; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.shipping (id, company, amount, days) FROM stdin;
-4811c1e4-6cff-4be0-ab8c-fabc9bd85c31	Post	10	3
-e4d4bed5-a453-459e-9d29-3899ca8932c4	Fedex	30	1
-0c4de3dc-dc5c-4e66-bba9-11e263349d97	UPS	40	2
-\.
+INSERT INTO public.shipping (id, company, amount, days) VALUES ('4811c1e4-6cff-4be0-ab8c-fabc9bd85c31', 'Post', 10, 3);
+INSERT INTO public.shipping (id, company, amount, days) VALUES ('e4d4bed5-a453-459e-9d29-3899ca8932c4', 'Fedex', 30, 1);
+INSERT INTO public.shipping (id, company, amount, days) VALUES ('0c4de3dc-dc5c-4e66-bba9-11e263349d97', 'UPS', 40, 2);
 
 
 --
 -- Data for Name: transaction; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.transaction (payment_id, id, cart_id, finished) FROM stdin;
-16f0cc8b-fd72-4b2b-a36f-65e29ccf80d2	a6fff1c0-8ce4-4f42-b95b-443bd7d61c57	8858e9c4-d23f-45aa-a952-16e3d4582967	f
-\.
+INSERT INTO public.transaction (payment_id, id, cart_id, finished) VALUES ('16f0cc8b-fd72-4b2b-a36f-65e29ccf80d2', 'a6fff1c0-8ce4-4f42-b95b-443bd7d61c57', '8858e9c4-d23f-45aa-a952-16e3d4582967', false);
 
 
 --
 -- Data for Name: watchlist; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.watchlist (client_id, item_id, id) FROM stdin;
-423ef4e8-2630-49bf-84f4-8e76a9d7447a	2d5136f3-4ade-448c-bbd5-f101be83a49a	5d60abeb-5eb8-4573-b90c-7db0bc619edb
-2872fbb6-0391-479b-b84d-2f09efa31f43	45010957-7da2-4251-b98f-501981668bf7	65bfa57b-8bdc-4560-b3e4-706519e14e57
-\.
+INSERT INTO public.watchlist (client_id, item_id, id) VALUES ('423ef4e8-2630-49bf-84f4-8e76a9d7447a', '2d5136f3-4ade-448c-bbd5-f101be83a49a', '5d60abeb-5eb8-4573-b90c-7db0bc619edb');
+INSERT INTO public.watchlist (client_id, item_id, id) VALUES ('2872fbb6-0391-479b-b84d-2f09efa31f43', '45010957-7da2-4251-b98f-501981668bf7', '65bfa57b-8bdc-4560-b3e4-706519e14e57');
 
 
 --
@@ -822,6 +777,13 @@ CREATE UNIQUE INDEX category_id_uindex ON public.category USING btree (id);
 --
 
 CREATE UNIQUE INDEX client_blacklist_id_uindex ON public.blacklist USING btree (id);
+
+
+--
+-- Name: client_email_uindex; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE UNIQUE INDEX client_email_uindex ON public.client USING btree (email);
 
 
 --
