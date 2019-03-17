@@ -22,7 +22,7 @@ class UserControllerTest {
     @InjectMocks
     UserController userController;
 
-    @BeforeEach
+    /*@BeforeEach
     void setUp() {
         MockitoAnnotations.initMocks(this);
     }
@@ -47,5 +47,5 @@ class UserControllerTest {
 
     @org.junit.jupiter.api.Test
     void clientPost() {
-    }
+    }*/
 }
