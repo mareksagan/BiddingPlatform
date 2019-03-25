@@ -1,12 +1,11 @@
 package com.biddingplatform.logic.controllers;
 
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("token")
 @RestController
 public class TokenController {
+
     @PostMapping("/login")
     public String login(){
 

@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "client", schema = "public", catalog = "biddingplatformdb")
-public class ClientEntity {
+@Table(name = "user", schema = "public", catalog = "biddingplatformdb")
+public class UserEntity {
     private UUID id;
     private String firstName;
     private String lastName;
@@ -16,6 +16,9 @@ public class ClientEntity {
     private String companyName;
     private Integer taxId;
     private double balance;
+    private Boolean isAdmin;
+
+    private AddressEntity address;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -65,6 +68,16 @@ public class ClientEntity {
 
     public void setAddressId(UUID addressId) {
         this.addressId = addressId;
+    }
+
+    @OneToOne
+    @JoinColumn(name="address_id")
+    public AddressEntity getAddress() {
+        return address;
+    }
+
+    public void setAddress(AddressEntity newAddress) {
+        this.address = newAddress;
     }
 
     @Basic
@@ -117,12 +130,22 @@ public class ClientEntity {
         this.balance = balance;
     }
 
+    @Basic
+    @Column(name = "is_admin", nullable = false)
+    public Boolean getIsAdmin() {
+        return isAdmin;
+    }
+
+    public void setIsAdmin(Boolean isAdmin) {
+        this.isAdmin = isAdmin;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        ClientEntity that = (ClientEntity) o;
+        UserEntity that = (UserEntity) o;
 
         if (Double.compare(that.balance, balance) != 0) return false;
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
@@ -151,6 +174,7 @@ public class ClientEntity {
         result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (companyName != null ? companyName.hashCode() : 0);
         result = 31 * result + (taxId != null ? taxId.hashCode() : 0);
+        result = 31 * result + (isAdmin != null ? isAdmin.hashCode() : 0);
         temp = Double.doubleToLongBits(balance);
         result = 31 * result + (int) (temp ^ (temp >>> 32));
         return result;

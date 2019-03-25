@@ -1,24 +1,12 @@
 package com.biddingplatform.logic.controllers;
 
-import com.biddingplatform.db.entities.ClientEntity;
-import com.biddingplatform.db.repositories.ClientRepository;
-import com.biddingplatform.logic.DTOs.ClientDTO;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import com.biddingplatform.db.repositories.UserRepository;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-import org.springframework.http.ResponseEntity;
-
-import java.util.ArrayList;
-import java.util.UUID;
-
-import static org.mockito.Mockito.*;
 
 class UserControllerTest {
     @Mock
-    ClientRepository rep;
+    UserRepository rep;
     @InjectMocks
     UserController userController;
 

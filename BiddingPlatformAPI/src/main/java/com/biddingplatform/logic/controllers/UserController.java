@@ -1,7 +1,7 @@
 package com.biddingplatform.logic.controllers;
 
-import com.biddingplatform.db.entities.ClientEntity;
-import com.biddingplatform.db.services.ClientService;
+import com.biddingplatform.db.entities.UserEntity;
+import com.biddingplatform.db.services.UserService;
 import com.biddingplatform.logic.DTOs.ClientDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,40 +16,35 @@ import java.util.UUID;
 public class UserController {
 
     @Autowired
-    private ClientService service;
+    private UserService userService;
 
     @GetMapping("/{id}")
-    public ClientEntity getById(@PathVariable UUID id){
-        return service.findById(id);
+    public UserEntity getById(@PathVariable UUID id){
+        return userService.findById(id);
     }
 
     @GetMapping("/email/{email}")
-    public ClientEntity getByEmail(@PathVariable String email){
-        return service.findByEmail(email);
+    public UserEntity getByEmail(@PathVariable String email){
+        return userService.findByEmail(email);
     }
 
     @GetMapping("/name/{firstname}/{lastname}")
-    public ArrayList<ClientEntity> getByEmail(@PathVariable String firstname, @PathVariable String lastname){
-        return service.findByName(firstname, lastname);
+    public ArrayList<UserEntity> getByEmail(@PathVariable String firstname, @PathVariable String lastname){
+        return userService.findByName(firstname, lastname);
     }
 
     @GetMapping("/all")
-    public ArrayList<ClientEntity> getAll(){
-        return service.findAll();
+    public ArrayList<UserEntity> getAll(){
+        return userService.findAll();
     }
 
     @PostMapping("/add")
-    public ResponseEntity add(@RequestBody ClientDTO client){
+    public ResponseEntity add(@RequestBody ClientDTO user){
 
-        var newClient = new ClientEntity();
-
-        if (client != null) {
-            newClient.setFirstName(client.firstName);
-            newClient.setLastName(client.lastName);
-            newClient.setEmail(client.email);
-            newClient.setTaxId(client.taxId);
-
-            service.add(newClient);
+        if (user != null) {
+            userService.add(user.firstName, user.lastName, user.email, user.password,
+                    user.apartment, user.building, user.street, user.city,
+                    user.country, user.companyName, user.taxId);
 
             return ResponseEntity.ok(HttpStatus.OK);
         } else {
@@ -60,13 +55,13 @@ public class UserController {
     @PostMapping("/delete/{id}")
     public ResponseEntity delete(@PathVariable UUID id){
 
-        service.delete(id);
+        userService.delete(id);
 
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/count")
     public long count(){
-        return service.count();
+        return userService.count();
     }
 }

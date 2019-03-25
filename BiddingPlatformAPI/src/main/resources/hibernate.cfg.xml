@@ -14,7 +14,7 @@
         <mapping class="com.biddingplatform.db.entities.CartEntity"/>
         <mapping class="com.biddingplatform.db.entities.CartOrdersEntity"/>
         <mapping class="com.biddingplatform.db.entities.CategoryEntity"/>
-        <mapping class="com.biddingplatform.db.entities.ClientEntity"/>
+        <mapping class="com.biddingplatform.db.entities.UserEntity"/>
         <mapping class="com.biddingplatform.db.entities.CountryEntity"/>
         <mapping class="com.biddingplatform.db.entities.DiscountEntity"/>
         <mapping class="com.biddingplatform.db.entities.FeeEntity"/>
