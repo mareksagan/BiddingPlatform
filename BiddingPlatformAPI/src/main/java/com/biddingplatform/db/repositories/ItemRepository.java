@@ -13,8 +13,6 @@ import java.util.UUID;
 public interface ItemRepository extends JpaRepository<ItemEntity, UUID> {
     ArrayList<ItemEntity> findAll();
     Optional<ItemEntity> findById(UUID id);
-    UserEntity findByEmail(String email);
-    ArrayList<UserEntity> findBy(String firstName, String lastName);
     UserEntity saveAndFlush(UserEntity client);
     void deleteById(UUID uuid);
     long count();

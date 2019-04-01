@@ -1,12 +1,12 @@
 package com.biddingplatform.logic.security;
 
+import com.biddingplatform.db.services.CustomUserDetailsService;
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -25,7 +25,7 @@ public class JWTTokenProvider {
     private long validityInMilliseconds = 3600000;
 
     @Autowired
-    private UserDetailsService userDetailsService;
+    private CustomUserDetailsService userDetailsService;
 
     @PostConstruct
     protected void init() {
@@ -63,11 +63,13 @@ public class JWTTokenProvider {
     }
 
     public boolean validateToken(String token) {
+
         try {
             Jws<Claims> claims = Jwts.parser().setSigningKey(secretKey).parseClaimsJws(token);
-            if (claims.getBody().getExpiration().before(new Date())) {
+
+            if (claims.getBody().getExpiration().before(new Date()))
                 return false;
-            }
+
             return true;
         } catch (JwtException | IllegalArgumentException e) {
             throw new JwtException("Expired or invalid JWT token");

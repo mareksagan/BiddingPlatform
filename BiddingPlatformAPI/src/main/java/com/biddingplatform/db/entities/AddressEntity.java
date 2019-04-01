@@ -13,6 +13,8 @@ public class AddressEntity {
     private int countryId;
     private UUID id;
 
+    private CountryEntity country;
+
     @Basic
     @Column(name = "street", nullable = false, length = 100)
     public String getStreet() {
@@ -61,6 +63,16 @@ public class AddressEntity {
 
     public void setCountryId(int countryId) {
         this.countryId = countryId;
+    }
+
+    @OneToOne
+    @JoinColumn(name = "country_id", updatable = false, insertable = false)
+    public CountryEntity getCountry() {
+        return country;
+    }
+
+    public void setCountry(CountryEntity country) {
+        this.country = country;
     }
 
     @Id

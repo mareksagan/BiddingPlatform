@@ -2,7 +2,7 @@ package com.biddingplatform.logic.controllers;
 
 import com.biddingplatform.db.entities.UserEntity;
 import com.biddingplatform.db.services.UserService;
-import com.biddingplatform.logic.DTOs.ClientDTO;
+import com.biddingplatform.logic.DTOs.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -39,7 +39,7 @@ public class UserController {
     }
 
     @PostMapping("/add")
-    public ResponseEntity add(@RequestBody ClientDTO user){
+    public ResponseEntity add(@RequestBody UserDTO user){
 
         if (user != null) {
             userService.add(user.firstName, user.lastName, user.email, user.password,

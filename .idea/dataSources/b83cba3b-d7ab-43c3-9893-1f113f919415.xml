@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="BiddingPlatformDb">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
     <root id="1">
       <ServerVersion>11.1</ServerVersion>
     </root>
@@ -65,8 +65,8 @@
       <CreateRole>1</CreateRole>
       <CreateDb>1</CreateDb>
       <CanLogin>1</CanLogin>
-      <Replication>1</Replication>
       <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
       <BypassRls>1</BypassRls>
     </role>
     <schema id="13" parent="2" name="information_schema">
@@ -166,16 +166,16 @@
     </extension>
     <sequence id="26" parent="18" name="discount_id_seq">
       <ObjectId>16696</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>884</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="27" parent="18" name="hibernate_sequence">
       <ObjectId>16413</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>579</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1+50</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
@@ -343,8 +343,8 @@
     <key id="58" parent="28" name="address_pk">
       <ObjectId>16700</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>address_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>address_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="59" parent="28" name="address_country_id_fk">
       <ObjectId>16701</ObjectId>
@@ -413,8 +413,8 @@
       <ObjectId>16607</ObjectId>
       <StateNumber>775</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>item_bids_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>item_bids_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="69" parent="29" name="item_bids_client_id_fk">
       <ObjectId>16608</ObjectId>
@@ -470,8 +470,8 @@
     <key id="76" parent="30" name="client_blacklist_pk">
       <ObjectId>16642</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>client_blacklist_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>client_blacklist_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="77" parent="30" name="client_blacklist_client_id_fk">
       <ObjectId>16643</ObjectId>
@@ -540,8 +540,8 @@
       <ObjectId>16585</ObjectId>
       <StateNumber>755</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>payment_card_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>payment_card_pk</UnderlyingIndexName>
     </key>
     <column id="87" parent="32" name="id">
       <Position>1</Position>
@@ -565,8 +565,8 @@
     <key id="90" parent="32" name="cart_pkey">
       <ObjectId>16476</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>cart_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>cart_pkey</UnderlyingIndexName>
     </key>
     <column id="91" parent="33" name="id">
       <Position>1</Position>
@@ -602,8 +602,8 @@
     <key id="96" parent="33" name="cart_orders_pkey">
       <ObjectId>16748</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>cart_orders_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>cart_orders_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="97" parent="33" name="cart_orders_cart_id_fk">
       <ObjectId>16754</ObjectId>
@@ -656,8 +656,8 @@
     <key id="104" parent="34" name="category_pk">
       <ObjectId>16553</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>category_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>category_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="105" parent="34" name="category_category_id_fk">
       <ObjectId>16554</ObjectId>
@@ -695,8 +695,8 @@
     <key id="110" parent="35" name="country_pk">
       <ObjectId>16588</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>country_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>country_pk</UnderlyingIndexName>
     </key>
     <column id="111" parent="36" name="item_id">
       <Position>1</Position>
@@ -753,8 +753,8 @@
       <ObjectId>16567</ObjectId>
       <StateNumber>737</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>discount_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>discount_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="120" parent="36" name="discount_item_id_fk">
       <ObjectId>16599</ObjectId>
@@ -820,8 +820,8 @@
     <key id="128" parent="37" name="fee_pkey">
       <ObjectId>16799</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>fee_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>fee_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="129" parent="37" name="fee_category_id_fk">
       <ObjectId>16800</ObjectId>
@@ -930,8 +930,8 @@
       <ObjectId>16471</ObjectId>
       <StateNumber>638</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>item_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>item_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="145" parent="38" name="item_client_id_fk">
       <ObjectId>16716</ObjectId>
@@ -983,8 +983,8 @@
       <ObjectId>16794</ObjectId>
       <StateNumber>962</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>item_photos_pkey1</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>item_photos_pkey1</UnderlyingIndexName>
     </key>
     <foreign-key id="152" parent="39" name="item_photos_item_id_fk">
       <ObjectId>16822</ObjectId>
@@ -1046,8 +1046,8 @@
     <key id="160" parent="40" name="client_message_pk">
       <ObjectId>16658</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>client_message_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>client_message_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="161" parent="40" name="client_message_client_id_fk">
       <ObjectId>16659</ObjectId>
@@ -1101,8 +1101,8 @@
     <key id="168" parent="41" name="order_pkey">
       <ObjectId>16737</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>order_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>order_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="169" parent="41" name="order_item_id_fk">
       <ObjectId>16739</ObjectId>
@@ -1151,8 +1151,8 @@
       <ObjectId>16486</ObjectId>
       <StateNumber>641</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>payment_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>payment_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="176" parent="42" name="payment_card_id_fk">
       <ObjectId>16817</ObjectId>
@@ -1223,8 +1223,8 @@
       <ObjectId>16846</ObjectId>
       <StateNumber>1024</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>payout_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>payout_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="186" parent="43" name="payout_client_id_fk">
       <ObjectId>16837</ObjectId>
@@ -1272,8 +1272,8 @@
       <ObjectId>16617</ObjectId>
       <StateNumber>1000</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>photo_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>photo_pkey</UnderlyingIndexName>
     </key>
     <column id="193" parent="45" name="item_id">
       <Position>1</Position>
@@ -1318,8 +1318,8 @@
     <key id="199" parent="45" name="client_reviews_pk">
       <ObjectId>16542</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>client_reviews_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>client_reviews_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="200" parent="45" name="client_review_item_id_fk">
       <ObjectId>16674</ObjectId>
@@ -1382,8 +1382,8 @@
       <ObjectId>16691</ObjectId>
       <StateNumber>874</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>shipping_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>shipping_pkey</UnderlyingIndexName>
     </key>
     <column id="209" parent="47" name="payment_id">
       <Position>1</Position>
@@ -1426,8 +1426,8 @@
     <key id="215" parent="47" name="client_transactions_pk">
       <ObjectId>16639</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>client_transactions_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>client_transactions_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="216" parent="47" name="transaction_payment_id_fk">
       <ObjectId>16770</ObjectId>
@@ -1539,8 +1539,8 @@
       <ObjectId>16493</ObjectId>
       <StateNumber>1059</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>user_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>user_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="232" parent="48" name="user_cart_id_fk">
       <ObjectId>16504</ObjectId>
@@ -1586,8 +1586,8 @@
     <key id="238" parent="49" name="client_watchlist_pk">
       <ObjectId>16626</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>client_watchlist_pk</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>client_watchlist_pk</UnderlyingIndexName>
     </key>
     <foreign-key id="239" parent="49" name="client_watchlist_client_id_fk">
       <ObjectId>16632</ObjectId>

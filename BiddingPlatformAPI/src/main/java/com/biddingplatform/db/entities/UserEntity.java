@@ -1,11 +1,20 @@
 package com.biddingplatform.db.entities;
 
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.UUID;
+
+import static java.util.stream.Collectors.toList;
 
 @Entity
 @Table(name = "user", schema = "public", catalog = "biddingplatformdb")
-public class UserEntity {
+public class UserEntity implements UserDetails {
     private UUID id;
     private String firstName;
     private String lastName;
@@ -71,7 +80,7 @@ public class UserEntity {
     }
 
     @OneToOne
-    @JoinColumn(name="address_id")
+    @JoinColumn(name="address_id", insertable = false, updatable = false)
     public AddressEntity getAddress() {
         return address;
     }
@@ -141,6 +150,55 @@ public class UserEntity {
     }
 
     @Override
+    @Transient
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        var roles = getRoles();
+
+        return roles.stream().map(SimpleGrantedAuthority::new).collect(toList());
+    }
+
+    @Override
+    @Transient
+    public String getUsername() {
+        return email;
+    }
+
+    @Override
+    @Transient
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    @Transient
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    @Transient
+    public boolean isCredentialsNonExpired() {
+        return false;
+    }
+
+    @Override
+    @Transient
+    public boolean isEnabled() {
+        return true;
+    }
+
+    @Transient
+    public ArrayList<String> getRoles() {
+        var roles = new ArrayList<String>();
+
+        roles.add("user");
+
+        if (isAdmin) roles.add("admin");
+
+        return roles;
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -157,6 +215,7 @@ public class UserEntity {
         if (password != null ? !password.equals(that.password) : that.password != null) return false;
         if (companyName != null ? !companyName.equals(that.companyName) : that.companyName != null) return false;
         if (taxId != null ? !taxId.equals(that.taxId) : that.taxId != null) return false;
+        if (addressId != null ? !addressId.equals(that.addressId) : that.addressId != null) return false;
 
         return true;
     }

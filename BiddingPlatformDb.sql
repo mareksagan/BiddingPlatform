@@ -37,6 +37,22 @@ SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
 
+--
+-- Name: public; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA public;
+
+
+ALTER SCHEMA public OWNER TO postgres;
+
+--
+-- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: postgres
+--
+
+COMMENT ON SCHEMA public IS 'standard public schema';
+
+
 SET default_tablespace = '';
 
 SET default_with_oids = false;
@@ -56,21 +72,6 @@ CREATE TABLE public.address (
 
 
 ALTER TABLE public.address OWNER TO postgres;
-
---
--- Name: admin; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.admin (
-    id uuid NOT NULL,
-    first_name character varying(100) NOT NULL,
-    last_name character varying(100) NOT NULL,
-    email character varying(200) NOT NULL,
-    password character varying(200) NOT NULL
-);
-
-
-ALTER TABLE public.admin OWNER TO postgres;
 
 --
 -- Name: bid; Type: TABLE; Schema: public; Owner: postgres
@@ -154,26 +155,6 @@ CREATE TABLE public.category (
 ALTER TABLE public.category OWNER TO postgres;
 
 --
--- Name: client; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.client (
-    id uuid NOT NULL,
-    first_name character varying(50) NOT NULL,
-    last_name character varying(50) NOT NULL,
-    cart_id uuid,
-    address_id uuid NOT NULL,
-    email character varying(100) NOT NULL,
-    password character varying(200) NOT NULL,
-    company_name character varying(80),
-    tax_id integer,
-    balance double precision DEFAULT 0 NOT NULL
-);
-
-
-ALTER TABLE public.client OWNER TO postgres;
-
---
 -- Name: country; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -202,6 +183,20 @@ CREATE TABLE public.discount (
 ALTER TABLE public.discount OWNER TO postgres;
 
 --
+-- Name: discount_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.discount_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.discount_id_seq OWNER TO postgres;
+
+--
 -- Name: fee; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -213,6 +208,20 @@ CREATE TABLE public.fee (
 
 
 ALTER TABLE public.fee OWNER TO postgres;
+
+--
+-- Name: hibernate_sequence; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.hibernate_sequence
+    START WITH 1000
+    INCREMENT BY 50
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.hibernate_sequence OWNER TO postgres;
 
 --
 -- Name: item; Type: TABLE; Schema: public; Owner: postgres
@@ -365,6 +374,27 @@ CREATE TABLE public.transaction (
 ALTER TABLE public.transaction OWNER TO postgres;
 
 --
+-- Name: user; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public."user" (
+    id uuid NOT NULL,
+    first_name character varying(50) NOT NULL,
+    last_name character varying(50) NOT NULL,
+    cart_id uuid,
+    address_id uuid NOT NULL,
+    email character varying(100) NOT NULL,
+    password character varying(200) NOT NULL,
+    company_name character varying(80),
+    tax_id integer,
+    balance double precision DEFAULT 0 NOT NULL,
+    is_admin boolean DEFAULT false NOT NULL
+);
+
+
+ALTER TABLE public."user" OWNER TO postgres;
+
+--
 -- Name: watchlist; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -384,13 +414,6 @@ ALTER TABLE public.watchlist OWNER TO postgres;
 INSERT INTO public.address (street, building, apartment, city, country_id, id) VALUES ('Na porici', 5, 4, 'Prague', 2, 'bcc782c4-4881-43bf-be63-74e1044e0bbd');
 INSERT INTO public.address (street, building, apartment, city, country_id, id) VALUES ('Rakowiecka', 7, 6, 'Warsaw', 1, '2872fbb6-0391-479b-b84d-2f09efa31f43');
 INSERT INTO public.address (street, building, apartment, city, country_id, id) VALUES ('Las Palmas', 80, 1, 'San Jose', 3, '8c1bb582-fa77-4365-bc6a-5595f270cb07');
-
-
---
--- Data for Name: admin; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-INSERT INTO public.admin (id, first_name, last_name, email, password) VALUES ('111d5e65-e21f-4c00-982e-a7cb40da6710', 'Marek', 'Sagan', 'marek.sagan@protonmail.com', 'password');
 
 
 --
@@ -439,15 +462,6 @@ INSERT INTO public.cart_orders (id, cart_id, order_id) VALUES ('5279ab6f-978a-4f
 INSERT INTO public.category (name, partof, id) VALUES ('Home', NULL, '2ceea620-0824-4f77-85d5-ad9b63563f70');
 INSERT INTO public.category (name, partof, id) VALUES ('Garden', '2ceea620-0824-4f77-85d5-ad9b63563f70', '53254d4e-2b80-43c3-a1ec-0e2425c767af');
 INSERT INTO public.category (name, partof, id) VALUES ('Black Friday', NULL, '606c3b44-f585-4ec7-91b7-4b773c432670');
-
-
---
--- Data for Name: client; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-INSERT INTO public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) VALUES ('423ef4e8-2630-49bf-84f4-8e76a9d7447a', 'Marcin', 'Puchacki', NULL, '2872fbb6-0391-479b-b84d-2f09efa31f43', 'puchacz09@wp.pl', 'marcin02', '', NULL, 0);
-INSERT INTO public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) VALUES ('2872fbb6-0391-479b-b84d-2f09efa31f43', 'Jiri', 'Drahos', NULL, 'bcc782c4-4881-43bf-be63-74e1044e0bbd', 'jiridrah5453@seznam.cz', 'jiri02', '', NULL, 69);
-INSERT INTO public.client (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance) VALUES ('4ec24d84-43c6-4978-984c-42773ce7b8e9', 'Luis', 'Sanchez', NULL, '8c1bb582-fa77-4365-bc6a-5595f270cb07', 'luiss345@mail.cr', 'luis02', '', NULL, 12);
 
 
 --
@@ -560,6 +574,15 @@ INSERT INTO public.transaction (payment_id, id, cart_id, finished) VALUES ('16f0
 
 
 --
+-- Data for Name: user; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public."user" (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance, is_admin) VALUES ('4ec24d84-43c6-4978-984c-42773ce7b8e9', 'Luis', 'Sanchez', NULL, '8c1bb582-fa77-4365-bc6a-5595f270cb07', 'luiss345@mail.cr', 'luis02', '', NULL, 12, false);
+INSERT INTO public."user" (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance, is_admin) VALUES ('2872fbb6-0391-479b-b84d-2f09efa31f43', 'Jiri', 'Drahos', NULL, 'bcc782c4-4881-43bf-be63-74e1044e0bbd', 'jiridrah5453@seznam.cz', 'jiri02', '', NULL, 69, false);
+INSERT INTO public."user" (id, first_name, last_name, cart_id, address_id, email, password, company_name, tax_id, balance, is_admin) VALUES ('423ef4e8-2630-49bf-84f4-8e76a9d7447a', 'Marcin', 'Puchacki', NULL, '2872fbb6-0391-479b-b84d-2f09efa31f43', 'puchacz09@wp.pl', 'marcin02', '', NULL, 0, true);
+
+
+--
 -- Data for Name: watchlist; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -568,19 +591,25 @@ INSERT INTO public.watchlist (client_id, item_id, id) VALUES ('2872fbb6-0391-479
 
 
 --
+-- Name: discount_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.discount_id_seq', 1, false);
+
+
+--
+-- Name: hibernate_sequence; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.hibernate_sequence', 1100, true);
+
+
+--
 -- Name: address address_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.address
     ADD CONSTRAINT address_pk PRIMARY KEY (id);
-
-
---
--- Name: admin admin_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.admin
-    ADD CONSTRAINT admin_pkey PRIMARY KEY (id);
 
 
 --
@@ -621,14 +650,6 @@ ALTER TABLE ONLY public.blacklist
 
 ALTER TABLE ONLY public.message
     ADD CONSTRAINT client_message_pk PRIMARY KEY (id);
-
-
---
--- Name: client client_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.client
-    ADD CONSTRAINT client_pk PRIMARY KEY (id);
 
 
 --
@@ -752,6 +773,14 @@ ALTER TABLE ONLY public.shipping
 
 
 --
+-- Name: user user_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public."user"
+    ADD CONSTRAINT user_pk PRIMARY KEY (id);
+
+
+--
 -- Name: address_id_uindex; Type: INDEX; Schema: public; Owner: postgres
 --
 
@@ -777,13 +806,6 @@ CREATE UNIQUE INDEX category_id_uindex ON public.category USING btree (id);
 --
 
 CREATE UNIQUE INDEX client_blacklist_id_uindex ON public.blacklist USING btree (id);
-
-
---
--- Name: client_email_uindex; Type: INDEX; Schema: public; Owner: postgres
---
-
-CREATE UNIQUE INDEX client_email_uindex ON public.client USING btree (email);
 
 
 --
@@ -871,6 +893,13 @@ CREATE UNIQUE INDEX shipping_id_uindex ON public.shipping USING btree (id);
 
 
 --
+-- Name: user_email_uindex; Type: INDEX; Schema: public; Owner: postgres
+--
+
+CREATE UNIQUE INDEX user_email_uindex ON public."user" USING btree (email);
+
+
+--
 -- Name: address address_country_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -915,7 +944,7 @@ ALTER TABLE ONLY public.category
 --
 
 ALTER TABLE ONLY public.blacklist
-    ADD CONSTRAINT client_blacklist_client_id_fk FOREIGN KEY (client_id) REFERENCES public.client(id);
+    ADD CONSTRAINT client_blacklist_client_id_fk FOREIGN KEY (client_id) REFERENCES public."user"(id);
 
 
 --
@@ -923,15 +952,7 @@ ALTER TABLE ONLY public.blacklist
 --
 
 ALTER TABLE ONLY public.blacklist
-    ADD CONSTRAINT client_blacklist_client_id_fk_2 FOREIGN KEY (blacklisted_client_id) REFERENCES public.client(id);
-
-
---
--- Name: client client_cart_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.client
-    ADD CONSTRAINT client_cart_id_fk FOREIGN KEY (cart_id) REFERENCES public.cart(id);
+    ADD CONSTRAINT client_blacklist_client_id_fk_2 FOREIGN KEY (blacklisted_client_id) REFERENCES public."user"(id);
 
 
 --
@@ -939,7 +960,7 @@ ALTER TABLE ONLY public.client
 --
 
 ALTER TABLE ONLY public.message
-    ADD CONSTRAINT client_message_client_id_fk FOREIGN KEY (sender_id) REFERENCES public.client(id);
+    ADD CONSTRAINT client_message_client_id_fk FOREIGN KEY (sender_id) REFERENCES public."user"(id);
 
 
 --
@@ -947,7 +968,7 @@ ALTER TABLE ONLY public.message
 --
 
 ALTER TABLE ONLY public.message
-    ADD CONSTRAINT client_message_client_id_fk_2 FOREIGN KEY (receiver_id) REFERENCES public.client(id);
+    ADD CONSTRAINT client_message_client_id_fk_2 FOREIGN KEY (receiver_id) REFERENCES public."user"(id);
 
 
 --
@@ -955,7 +976,7 @@ ALTER TABLE ONLY public.message
 --
 
 ALTER TABLE ONLY public.review
-    ADD CONSTRAINT client_review_client_id_fk FOREIGN KEY (reviewer_id) REFERENCES public.client(id);
+    ADD CONSTRAINT client_review_client_id_fk FOREIGN KEY (reviewer_id) REFERENCES public."user"(id);
 
 
 --
@@ -971,7 +992,7 @@ ALTER TABLE ONLY public.review
 --
 
 ALTER TABLE ONLY public.watchlist
-    ADD CONSTRAINT client_watchlist_client_id_fk FOREIGN KEY (client_id) REFERENCES public.client(id);
+    ADD CONSTRAINT client_watchlist_client_id_fk FOREIGN KEY (client_id) REFERENCES public."user"(id);
 
 
 --
@@ -979,7 +1000,7 @@ ALTER TABLE ONLY public.watchlist
 --
 
 ALTER TABLE ONLY public.discount
-    ADD CONSTRAINT discount_client_id_fk FOREIGN KEY (client_id) REFERENCES public.client(id);
+    ADD CONSTRAINT discount_client_id_fk FOREIGN KEY (client_id) REFERENCES public."user"(id);
 
 
 --
@@ -1007,11 +1028,19 @@ ALTER TABLE ONLY public.fee
 
 
 --
+-- Name: user fkddefmvbrws3hvl5t0hnnsv8ox; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public."user"
+    ADD CONSTRAINT fkddefmvbrws3hvl5t0hnnsv8ox FOREIGN KEY (address_id) REFERENCES public.address(id);
+
+
+--
 -- Name: bid item_bids_client_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bid
-    ADD CONSTRAINT item_bids_client_id_fk FOREIGN KEY (client_id) REFERENCES public.client(id);
+    ADD CONSTRAINT item_bids_client_id_fk FOREIGN KEY (client_id) REFERENCES public."user"(id);
 
 
 --
@@ -1027,7 +1056,7 @@ ALTER TABLE ONLY public.item
 --
 
 ALTER TABLE ONLY public.item
-    ADD CONSTRAINT item_client_id_fk FOREIGN KEY (seller_id) REFERENCES public.client(id);
+    ADD CONSTRAINT item_client_id_fk FOREIGN KEY (seller_id) REFERENCES public."user"(id);
 
 
 --
@@ -1067,7 +1096,7 @@ ALTER TABLE ONLY public.payment
 --
 
 ALTER TABLE ONLY public.payout
-    ADD CONSTRAINT payout_client_id_fk FOREIGN KEY (client_id) REFERENCES public.client(id);
+    ADD CONSTRAINT payout_client_id_fk FOREIGN KEY (client_id) REFERENCES public."user"(id);
 
 
 --
@@ -1084,6 +1113,14 @@ ALTER TABLE ONLY public.transaction
 
 ALTER TABLE ONLY public.transaction
     ADD CONSTRAINT transaction_payment_id_fk FOREIGN KEY (payment_id) REFERENCES public.payment(id);
+
+
+--
+-- Name: user user_cart_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public."user"
+    ADD CONSTRAINT user_cart_id_fk FOREIGN KEY (cart_id) REFERENCES public.cart(id);
 
 
 --
