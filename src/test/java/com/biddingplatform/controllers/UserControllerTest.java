@@ -1,6 +1,7 @@
-package com.biddingplatform.unit;
+package com.biddingplatform.controllers;
 
 import com.biddingplatform.db.repositories.UserRepository;
+import com.biddingplatform.logic.controllers.UserController;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 

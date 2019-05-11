@@ -1,4 +1,4 @@
-package com.biddingplatform.unit;
+package com.biddingplatform.logic.controllers;
 
 import com.biddingplatform.db.entities.UserEntity;
 import com.biddingplatform.db.services.UserService;

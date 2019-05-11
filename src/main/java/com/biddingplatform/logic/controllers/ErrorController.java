@@ -1,4 +1,4 @@
-package com.biddingplatform.unit;
+package com.biddingplatform.logic.controllers;
 
 import org.springframework.web.bind.annotation.*;
 
