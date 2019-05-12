@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {LoginComponent} from '../../components/login/login.component'
-import {ItemsComponent} from "../../components/items/items.component";
-import {ItemComponent} from "../../components/item/item.component";
-import {HomeComponent} from "../home/home.component";
-import {CartComponent} from "../../components/cart/cart.component";
-import {AboutComponent} from "../../components/about/about.component";
-import {AdminComponent} from "../../components/admin/admin.component";
-import {MessagesComponent} from "../../components/messages/messages.component";
-import {SettingsComponent} from "../../components/settings/settings.component";
+import {LoginComponent} from '../../components/login/login.component';
+import {ItemsComponent} from '../../components/items/items.component';
+import {ItemComponent} from '../../components/item/item.component';
+import {HomeComponent} from '../home/home.component';
+import {CartComponent} from '../../components/cart/cart.component';
+import {AboutComponent} from '../../components/about/about.component';
+import {AdminComponent} from '../../components/admin/admin.component';
+import {MessagesComponent} from '../../components/messages/messages.component';
+import {SettingsComponent} from '../../components/settings/settings.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },

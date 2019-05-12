@@ -153,7 +153,7 @@
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
-                <version>1.6</version>
+                <version>1.7.6</version>
                 <configuration>
                     <workingDirectory>frontend</workingDirectory>
                     <installDirectory>frontend/tmp</installDirectory>
@@ -166,8 +166,8 @@
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <nodeVersion>v8.11.3</nodeVersion>
-                            <npmVersion>6.3.0</npmVersion>
+                            <nodeVersion>v10.13.0</nodeVersion>
+                            <npmVersion>6.5.0</npmVersion>
                         </configuration>
                     </execution>
                     <execution>
@@ -175,7 +175,6 @@
                         <goals>
                             <goal>npm</goal>
                         </goals>
-                        <!-- Optional configuration which provides for running any npm command -->
                         <configuration>
                             <arguments>install</arguments>
                         </configuration>
@@ -186,7 +185,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>run build</arguments>
+                            <arguments>run-script build</arguments>
                         </configuration>
                         <phase>generate-resources</phase>
                     </execution>
