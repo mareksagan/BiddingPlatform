@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
     } else if (control.value !== this.validateForm.controls.password.value) {
       return { confirm: true, error: true };
     }
-  };
+  }
 
   getCaptcha(e: MouseEvent): void {
     e.preventDefault();

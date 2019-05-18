@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
 import { RouterModule } from '@angular/router';
 
-import { PathsModule } from './base/paths/paths.module'
+import { PathsModule } from './base/paths/paths.module';
 import { HomeComponent } from './base/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { CartComponent } from './components/cart/cart.component';

@@ -11,8 +11,7 @@ import {MessagesComponent} from '../../components/messages/messages.component';
 import {SettingsComponent} from '../../components/settings/settings.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'admin', component: AdminComponent },
   { path: 'cart', component: CartComponent },
   { path: 'messages', component: MessagesComponent },

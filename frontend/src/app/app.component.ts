@@ -8,11 +8,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'BiddingPlatform';
-  client = null;
+  clients = null;
 
-  constructor(private http: HttpClient){
-    let subscription = this.http.get('http://localhost:8080/client')
-      .subscribe(response => this.client = response);
+  constructor(private http: HttpClient) {
+    const subscription = this.http.get('http://localhost:8080/client/all')
+      .subscribe(response => this.clients = response);
   }
 
 }

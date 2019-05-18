@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { Router } from "@angular/router";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -9,13 +9,13 @@ import { Router } from "@angular/router";
 
 export class MenuComponent {
 
-  constructor(private router : Router) {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
   }
 
-  public goToUrl(url : string){
+  public goToUrl(url: string) {
     this.router.navigateByUrl(url);
   }
 }

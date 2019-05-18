@@ -1,5 +1,5 @@
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
-import {ActivatedRoute} from '@angular/router'
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-items',
@@ -7,15 +7,15 @@ import {ActivatedRoute} from '@angular/router'
 })
 export class ItemsComponent implements OnInit, OnDestroy {
 
-  public category : string;
+  public category: string;
 
-  private data = null;
+  public data = null;
 
-  private sub : any;
+  private sub: any;
 
-  constructor(private route: ActivatedRoute){}
+  constructor(private route: ActivatedRoute) {}
 
-  ngOnInit(){
+  ngOnInit() {
 
     this.sub = this.route.params.subscribe(params => this.category = params['category']);
 
@@ -25,8 +25,23 @@ export class ItemsComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {}
 
 
-  public selectCategory(inputCategory : string){
-    if (inputCategory == 'blackfriday'){
+  public selectCategory(inputCategory: string) {
+    if (inputCategory !== 'blackfriday') {
+      this.data = [
+        {
+          title: 'Title 1',
+        },
+        {
+          title: 'Title 2',
+        },
+        {
+          title: 'Title 3',
+        },
+        {
+          title: 'Title 4',
+        },
+      ];
+    } else {
       this.data = [
         {
           title: 'BF 1',
@@ -76,22 +91,6 @@ export class ItemsComponent implements OnInit, OnDestroy {
         {
           title: 'BF 3',
         }
-      ];
-    }
-    else {
-      this.data = [
-        {
-          title: 'Title 1',
-        },
-        {
-          title: 'Title 2',
-        },
-        {
-          title: 'Title 3',
-        },
-        {
-          title: 'Title 4',
-        },
       ];
     }
   }
