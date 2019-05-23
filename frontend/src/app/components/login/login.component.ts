@@ -9,7 +9,6 @@ import {
 @Component({
   selector: 'app-zorroregister',
   templateUrl: './login.component.html',
-
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
@@ -17,8 +16,8 @@ export class LoginComponent implements OnInit {
 
   submitForm(): void {
     for (const i in this.validateForm.controls) {
-      this.validateForm.controls[ i ].markAsDirty();
-      this.validateForm.controls[ i ].updateValueAndValidity();
+      this.validateForm.controls[i].markAsDirty();
+      this.validateForm.controls[i].updateValueAndValidity();
     }
   }
 
@@ -44,15 +43,15 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.validateForm = this.fb.group({
-      email            : [ null, [ Validators.email, Validators.required ] ],
-      password         : [ null, [ Validators.required ] ],
-      checkPassword    : [ null, [ Validators.required, this.confirmationValidator ] ],
-      nickname         : [ null, [ Validators.required ] ],
-      phoneNumberPrefix: [ '+420' ],
-      phoneNumber      : [ null, [ Validators.required ] ],
-      website          : [ null, [ Validators.required ] ],
-      captcha          : [ null, [ Validators.required ] ],
-      agree            : [ false ]
+      email            : [null, [Validators.email, Validators.required]],
+      password         : [null, [Validators.required]],
+      checkPassword    : [null, [Validators.required, this.confirmationValidator]],
+      nickname         : [null, [Validators.required]],
+      phoneNumberPrefix: ['+420'],
+      phoneNumber      : [null, [Validators.required]],
+      website          : [null, [Validators.required]],
+      captcha          : [null, [Validators.required]],
+      agree            : [false]
     });
   }
 }
