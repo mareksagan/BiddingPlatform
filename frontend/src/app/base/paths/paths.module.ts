@@ -7,7 +7,7 @@ import { PathsRoutingModule } from './paths-routing.module';
   declarations: [],
   imports: [
     CommonModule,
-    PathsRoutingModule
-  ]
+    PathsRoutingModule,
+  ],
 })
 export class PathsModule { }

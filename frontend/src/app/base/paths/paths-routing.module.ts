@@ -23,11 +23,11 @@ const routes: Routes = [
   { path: 'grid', component: CartComponent },
   { path: 'login', component: LoginComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'blackfriday', redirectTo: '/items/blackfriday', pathMatch: 'full' }
+  { path: 'blackfriday', redirectTo: '/items/blackfriday', pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class PathsRoutingModule { }

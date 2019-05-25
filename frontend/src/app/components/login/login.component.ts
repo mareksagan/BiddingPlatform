@@ -3,19 +3,19 @@ import {
   FormBuilder,
   FormControl,
   FormGroup,
-  Validators
+  Validators,
 } from '@angular/forms';
 
 @Component({
   selector: 'app-zorroregister',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
 })
 export class LoginComponent implements OnInit {
   validateForm: FormGroup;
 
   submitForm(): void {
-    for (const i in this.validateForm.controls) {
+    for (const i of Object.keys(this.validateForm.controls)) {
       this.validateForm.controls[i].markAsDirty();
       this.validateForm.controls[i].updateValueAndValidity();
     }
@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
   confirmationValidator = (control: FormControl): { [ s: string ]: boolean } => {
     if (!control.value) {
       return { required: true };
-    } else if (control.value !== this.validateForm.controls.password.value) {
+    }  if (control.value !== this.validateForm.controls.password.value) {
       return { confirm: true, error: true };
     }
   }
@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
       phoneNumber      : [null, [Validators.required]],
       website          : [null, [Validators.required]],
       captcha          : [null, [Validators.required]],
-      agree            : [false]
+      agree            : [false],
     });
   }
 }

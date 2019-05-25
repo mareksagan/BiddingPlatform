@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-items',
-  templateUrl: './items.component.html'
+  templateUrl: './items.component.html',
 })
 export class ItemsComponent implements OnInit, OnDestroy {
 
@@ -23,7 +23,6 @@ export class ItemsComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {}
-
 
   public selectCategory(inputCategory: string) {
     if (inputCategory !== 'blackfriday') {
@@ -90,7 +89,7 @@ export class ItemsComponent implements OnInit, OnDestroy {
         },
         {
           title: 'BF 3',
-        }
+        },
       ];
     }
   }

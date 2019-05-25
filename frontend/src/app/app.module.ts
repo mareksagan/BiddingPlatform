@@ -33,7 +33,7 @@ import { AdminComponent } from './components/admin/admin.component';
     ItemComponent,
     SettingsComponent,
     MessagesComponent,
-    AdminComponent
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,9 +44,9 @@ import { AdminComponent } from './components/admin/admin.component';
     PathsModule,
     ReactiveFormsModule,
     FormsModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
