@@ -4,9 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "install-verbose": "npm install --verbose",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
+    "lint-fix": "ng lint --fix",
     "e2e": "ng e2e",
     "webdriver-update": "webdriver-manager update"
   },
