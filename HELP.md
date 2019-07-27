@@ -15,4 +15,4 @@ Business requirements:
 * Users must be able to add items to cart and then to pay for them
 
 How to run:
-* Go to the main folder and run mvn spring:run
+* Go to the main folder and run **mvn spring-boot:run**
