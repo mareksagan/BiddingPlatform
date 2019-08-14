@@ -1,12 +1,12 @@
 package com.biddingplatform.db.services;
 
-import com.biddingplatform.db.entities.AddressEntity;
-import com.biddingplatform.db.entities.UserEntity;
-import com.biddingplatform.db.repositories.AddressRepository;
-import com.biddingplatform.db.repositories.UserRepository;
-import com.biddingplatform.db.repositories.CountryRepository;
+import com.biddingplatform.db.entities.Address;
+import com.biddingplatform.db.entities.Country;
+import com.biddingplatform.db.entities.User;
+import com.biddingplatform.db.DAOs.AddressDAO;
+import com.biddingplatform.db.DAOs.UserDAO;
+import com.biddingplatform.db.DAOs.CountryDAO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
@@ -16,30 +16,30 @@ import java.util.UUID;
 public class UserService {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserDAO userRepository;
 
     @Autowired
-    private AddressRepository addressRepository;
+    private AddressDAO addressRepository;
 
     @Autowired
-    private CountryRepository countryRepository;
+    private CountryDAO countryRepository;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public ArrayList<UserEntity> findByName(String firstName, String lastName){
+    public ArrayList<User> findByName(String firstName, String lastName){
         return userRepository.findByFirstNameOrLastName(firstName, lastName);
     }
 
-    public ArrayList<UserEntity> findAll(){
+    public ArrayList<User> findAll(){
         return userRepository.findAll();
     }
 
-    public UserEntity findById(UUID id){
+    public User findById(UUID id){
         return userRepository.findById(id).get();
     }
 
-    public UserEntity findByEmail(String email){
+    public User findByEmail(String email){
         return userRepository.findByEmail(email).get();
     }
 
@@ -50,7 +50,7 @@ public class UserService {
     public UUID add(String firstName, String lastName, String email, String password, int apartment, int building,
                     String street, String city, String country, String companyName, int taxId){
 
-        var newClient = new UserEntity();
+        var newClient = new User();
 
         newClient.setFirstName(firstName);
         newClient.setLastName(lastName);
@@ -59,18 +59,18 @@ public class UserService {
         newClient.setCompanyName(companyName);
         newClient.setPassword(passwordEncoder.encode(password));
 
-        var newAddress = new AddressEntity();
+        var newAddress = new Address();
         newAddress.setApartment(apartment);
         newAddress.setBuilding(building);
         newAddress.setStreet(street);
         newAddress.setCity(city);
 
-        var countryId = countryRepository.findByName(country).get().getId();
-        newAddress.setCountryId(countryId);
+        var savedCountry = countryRepository.findByName(country).get();
+        newAddress.setCountry(savedCountry);
 
-        var savedAddressId = addressRepository.saveAndFlush(newAddress).getId();
+        var savedAddress = addressRepository.saveAndFlush(newAddress);
 
-        newClient.setAddressId(savedAddressId);
+        newClient.setAddress(savedAddress);
 
         var savedClient = userRepository.save(newClient);
 

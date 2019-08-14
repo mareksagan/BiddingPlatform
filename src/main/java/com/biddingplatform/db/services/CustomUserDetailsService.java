@@ -1,6 +1,6 @@
 package com.biddingplatform.db.services;
 
-import com.biddingplatform.db.repositories.UserRepository;
+import com.biddingplatform.db.DAOs.UserDAO;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class CustomUserDetailsService implements UserDetailsService {
 
-    private UserRepository users;
+    private UserDAO users;
 
-    public CustomUserDetailsService(UserRepository users) {
+    public CustomUserDetailsService(UserDAO users) {
         this.users = users;
     }
 

@@ -5,62 +5,69 @@ import java.sql.Timestamp;
 import java.util.UUID;
 
 @Entity
-@Table(name = "bid", schema = "public", catalog = "biddingplatformdb")
-public class BidEntity {
-    private Timestamp timestamp;
-    private double amount;
+@Table(name = "bid")
+public class Bid {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
     private UUID id;
+
+    @Column(name = "amount", nullable = false, precision = 0)
+    private double amount;
+
+    @Column(name = "client_id", nullable = false)
     private UUID clientId;
+
+    @Column(name = "item_id", nullable = false)
     private UUID itemId;
 
-    @Basic
     @Column(name = "timestamp", nullable = false)
+    private Timestamp timestamp;
+
     public Timestamp getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(Timestamp timestamp) {
+    public Bid setTimestamp(Timestamp timestamp) {
         this.timestamp = timestamp;
+        return this;
     }
 
-    @Basic
-    @Column(name = "amount", nullable = false, precision = 0)
     public double getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public Bid setAmount(double amount) {
         this.amount = amount;
+        return this;
     }
 
-    @Id
-    @Column(name = "id", nullable = false)
     public UUID getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public Bid setId(UUID id) {
         this.id = id;
+        return this;
     }
 
-    @Basic
-    @Column(name = "client_id", nullable = false)
     public UUID getClientId() {
         return clientId;
     }
 
-    public void setClientId(UUID clientId) {
+    public Bid setClientId(UUID clientId) {
         this.clientId = clientId;
+        return this;
     }
 
-    @Basic
-    @Column(name = "item_id", nullable = false)
     public UUID getItemId() {
         return itemId;
     }
 
-    public void setItemId(UUID itemId) {
+    public Bid setItemId(UUID itemId) {
         this.itemId = itemId;
+        return this;
     }
 
     @Override
@@ -68,7 +75,7 @@ public class BidEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        BidEntity bidEntity = (BidEntity) o;
+        Bid bidEntity = (Bid) o;
 
         if (Double.compare(bidEntity.amount, amount) != 0) return false;
         if (timestamp != null ? !timestamp.equals(bidEntity.timestamp) : bidEntity.timestamp != null) return false;

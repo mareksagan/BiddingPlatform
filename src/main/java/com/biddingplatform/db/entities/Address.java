@@ -4,85 +4,82 @@ import javax.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "address", schema = "public", catalog = "biddingplatformdb")
-public class AddressEntity {
-    private String street;
-    private Integer building;
-    private Integer apartment;
-    private String city;
-    private int countryId;
+@Table(name = "address")
+public class Address {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
     private UUID id;
 
-    private CountryEntity country;
-
-    @Basic
     @Column(name = "street", nullable = false, length = 100)
+    private String street;
+
+    @Column(name = "building", nullable = true)
+    private Integer building;
+
+    @Column(name = "apartment", nullable = true)
+    private Integer apartment;
+
+    @Column(name = "city", nullable = false, length = 100)
+    private String city;
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "id")
+    private Country country;
+
     public String getStreet() {
         return street;
     }
 
-    public void setStreet(String street) {
+    public Address setStreet(String street) {
         this.street = street;
+        return this;
     }
 
-    @Basic
-    @Column(name = "building", nullable = true)
     public Integer getBuilding() {
         return building;
     }
 
-    public void setBuilding(Integer building) {
+    public Address setBuilding(Integer building) {
         this.building = building;
+        return this;
     }
 
-    @Basic
-    @Column(name = "apartment", nullable = true)
-    public Integer getApartment() {
+    public int getApartment() {
         return apartment;
     }
 
-    public void setApartment(Integer apartment) {
+    public Address setApartment(int apartment) {
         this.apartment = apartment;
+        return this;
     }
 
-    @Basic
-    @Column(name = "city", nullable = false, length = 100)
     public String getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    public Address setCity(String city) {
         this.city = city;
+        return this;
     }
 
-    @Basic
-    @Column(name = "country_id", nullable = false)
-    public int getCountryId() {
-        return countryId;
-    }
-
-    public void setCountryId(int countryId) {
-        this.countryId = countryId;
-    }
-
-    @OneToOne
-    @JoinColumn(name = "country_id", updatable = false, insertable = false)
-    public CountryEntity getCountry() {
+    public Country getCountry() {
         return country;
     }
 
-    public void setCountry(CountryEntity country) {
+    public Address setCountry(Country country) {
         this.country = country;
+        return this;
     }
 
-    @Id
-    @Column(name = "id", nullable = false)
     public UUID getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public Address setId(UUID id) {
         this.id = id;
+        return this;
     }
 
     @Override
@@ -90,9 +87,9 @@ public class AddressEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        AddressEntity that = (AddressEntity) o;
+        Address that = (Address) o;
 
-        if (countryId != that.countryId) return false;
+        if (country != that.country) return false;
         if (street != null ? !street.equals(that.street) : that.street != null) return false;
         if (building != null ? !building.equals(that.building) : that.building != null) return false;
         if (apartment != null ? !apartment.equals(that.apartment) : that.apartment != null) return false;
@@ -108,7 +105,7 @@ public class AddressEntity {
         result = 31 * result + (building != null ? building.hashCode() : 0);
         result = 31 * result + (apartment != null ? apartment.hashCode() : 0);
         result = 31 * result + (city != null ? city.hashCode() : 0);
-        result = 31 * result + countryId;
+        result = 31 * result + (country != null ? country.hashCode() : 0);
         result = 31 * result + (id != null ? id.hashCode() : 0);
         return result;
     }

@@ -4,51 +4,57 @@ import javax.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "shipping", schema = "public", catalog = "biddingplatformdb")
-public class ShippingEntity {
-    private UUID id;
-    private String company;
-    private Double amount;
-    private int days;
+@Table(name = "shipping")
+public class Shipping {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
+    private UUID id;
+
+    @Column(name = "company", nullable = false, length = 80)
+    private String company;
+
+    @Column(name = "amount", nullable = true, precision = 0)
+    private Double amount;
+
+    @Column(name = "days", nullable = false)
+    private int days;
+
     public UUID getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public Shipping setId(UUID id) {
         this.id = id;
+        return this;
     }
 
-    @Basic
-    @Column(name = "company", nullable = false, length = 80)
     public String getCompany() {
         return company;
     }
 
-    public void setCompany(String company) {
+    public Shipping setCompany(String company) {
         this.company = company;
+        return this;
     }
 
-    @Basic
-    @Column(name = "amount", nullable = true, precision = 0)
     public Double getAmount() {
         return amount;
     }
 
-    public void setAmount(Double amount) {
+    public Shipping setAmount(Double amount) {
         this.amount = amount;
+        return this;
     }
 
-    @Basic
-    @Column(name = "days", nullable = false)
     public int getDays() {
         return days;
     }
 
-    public void setDays(int days) {
+    public Shipping setDays(int days) {
         this.days = days;
+        return this;
     }
 
     @Override
@@ -56,7 +62,7 @@ public class ShippingEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        ShippingEntity that = (ShippingEntity) o;
+        Shipping that = (Shipping) o;
 
         if (days != that.days) return false;
         if (id != null ? !id.equals(that.id) : that.id != null) return false;

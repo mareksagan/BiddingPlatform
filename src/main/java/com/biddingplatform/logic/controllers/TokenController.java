@@ -1,6 +1,6 @@
 package com.biddingplatform.logic.controllers;
 
-import com.biddingplatform.db.repositories.UserRepository;
+import com.biddingplatform.db.DAOs.UserDAO;
 import com.biddingplatform.logic.DTOs.AuthenticationRequest;
 import com.biddingplatform.logic.security.JWTTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,7 @@ public class TokenController {
     private JWTTokenProvider jwtTokenProvider;
 
     @Autowired
-    private UserRepository users;
+    private UserDAO users;
 
     @PostMapping("/login")
     public ResponseEntity login(@RequestBody AuthenticationRequest data){

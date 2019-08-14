@@ -1,6 +1,6 @@
 package com.biddingplatform.logic.controllers;
 
-import com.biddingplatform.db.entities.UserEntity;
+import com.biddingplatform.db.entities.User;
 import com.biddingplatform.db.services.UserService;
 import com.biddingplatform.logic.DTOs.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,22 +19,22 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/{id}")
-    public UserEntity getById(@PathVariable UUID id){
+    public User getById(@PathVariable UUID id){
         return userService.findById(id);
     }
 
     @GetMapping("/email/{email}")
-    public UserEntity getByEmail(@PathVariable String email){
+    public User getByEmail(@PathVariable String email){
         return userService.findByEmail(email);
     }
 
     @GetMapping("/name/{firstname}/{lastname}")
-    public ArrayList<UserEntity> getByEmail(@PathVariable String firstname, @PathVariable String lastname){
+    public ArrayList<User> getByEmail(@PathVariable String firstname, @PathVariable String lastname){
         return userService.findByName(firstname, lastname);
     }
 
     @GetMapping("/all")
-    public ArrayList<UserEntity> getAll(){
+    public ArrayList<User> getAll(){
         return userService.findAll();
     }
 

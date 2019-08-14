@@ -5,25 +5,33 @@ import java.sql.Timestamp;
 import java.util.UUID;
 
 @Entity
-@Table(name = "payment", schema = "public", catalog = "biddingplatformdb")
-public class PaymentEntity {
-    private UUID id;
-    private Timestamp timestamp;
-    private double totalAmount;
-    private UUID cardId;
+@Table(name = "payment")
+public class Payment {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
+    private UUID id;
+
+    @Column(name = "timestamp", nullable = false)
+    private Timestamp timestamp;
+
+    @Column(name = "total_amount", nullable = false, precision = 0)
+    private double totalAmount;
+
+    @OneToOne
+    @JoinColumn(name="id", insertable = false, updatable = false)
+    private Card card;
+
     public UUID getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public Payment setId(UUID id) {
         this.id = id;
+        return this;
     }
 
-    @Basic
-    @Column(name = "timestamp", nullable = false)
     public Timestamp getTimestamp() {
         return timestamp;
     }
@@ -32,8 +40,6 @@ public class PaymentEntity {
         this.timestamp = timestamp;
     }
 
-    @Basic
-    @Column(name = "total_amount", nullable = false, precision = 0)
     public double getTotalAmount() {
         return totalAmount;
     }
@@ -42,14 +48,12 @@ public class PaymentEntity {
         this.totalAmount = totalAmount;
     }
 
-    @Basic
-    @Column(name = "card_id", nullable = true)
-    public UUID getCardId() {
-        return cardId;
+    public Card getCard() {
+        return card;
     }
 
-    public void setCardId(UUID cardId) {
-        this.cardId = cardId;
+    public void setCard(Card card) {
+        this.card = card;
     }
 
     @Override
@@ -57,12 +61,12 @@ public class PaymentEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        PaymentEntity that = (PaymentEntity) o;
+        Payment that = (Payment) o;
 
         if (Double.compare(that.totalAmount, totalAmount) != 0) return false;
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
         if (timestamp != null ? !timestamp.equals(that.timestamp) : that.timestamp != null) return false;
-        if (cardId != null ? !cardId.equals(that.cardId) : that.cardId != null) return false;
+        if (card != null ? !card.equals(that.card) : that.card != null) return false;
 
         return true;
     }
@@ -75,7 +79,7 @@ public class PaymentEntity {
         result = 31 * result + (timestamp != null ? timestamp.hashCode() : 0);
         temp = Double.doubleToLongBits(totalAmount);
         result = 31 * result + (int) (temp ^ (temp >>> 32));
-        result = 31 * result + (cardId != null ? cardId.hashCode() : 0);
+        result = 31 * result + (card != null ? card.hashCode() : 0);
         return result;
     }
 }

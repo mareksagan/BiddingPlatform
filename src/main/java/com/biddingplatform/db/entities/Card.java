@@ -4,62 +4,69 @@ import javax.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "card", schema = "public", catalog = "biddingplatformdb")
-public class CardEntity {
-    private long number;
-    private String ccv;
+@Table(name = "card")
+public class Card {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
     private UUID id;
-    private int expYear;
+
+    @Column(name = "number", nullable = false)
+    private long number;
+
+    @Column(name = "ccv", nullable = false, length = 3)
+    private String ccv;
+
+    @Column(name = "exp_month", nullable = false)
     private int expMonth;
 
-    @Basic
-    @Column(name = "number", nullable = false)
+    @Column(name = "exp_year", nullable = false)
+    private int expYear;
+
     public long getNumber() {
         return number;
     }
 
-    public void setNumber(long number) {
+    public Card setNumber(long number) {
         this.number = number;
+        return this;
     }
 
-    @Basic
-    @Column(name = "ccv", nullable = false, length = 3)
     public String getCcv() {
         return ccv;
     }
 
-    public void setCcv(String ccv) {
+    public Card setCcv(String ccv) {
         this.ccv = ccv;
+        return this;
     }
 
-    @Id
-    @Column(name = "id", nullable = false)
     public UUID getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public Card setId(UUID id) {
         this.id = id;
+        return this;
     }
 
-    @Basic
-    @Column(name = "exp_year", nullable = false)
     public int getExpYear() {
         return expYear;
     }
 
-    public void setExpYear(int expYear) {
+    public Card setExpYear(int expYear) {
         this.expYear = expYear;
+        return this;
     }
 
-    @Basic
-    @Column(name = "exp_month", nullable = false)
     public int getExpMonth() {
         return expMonth;
     }
 
-    public void setExpMonth(int expMonth) {
+    public Card setExpMonth(int expMonth) {
         this.expMonth = expMonth;
+        return this;
     }
 
     @Override
@@ -67,7 +74,7 @@ public class CardEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        CardEntity that = (CardEntity) o;
+        Card that = (Card) o;
 
         if (number != that.number) return false;
         if (expYear != that.expYear) return false;

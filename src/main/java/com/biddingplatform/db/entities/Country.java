@@ -3,29 +3,33 @@ package com.biddingplatform.db.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "country", schema = "public", catalog = "biddingplatformdb")
-public class CountryEntity {
-    private String name;
+@Table(name = "country")
+public class Country {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
     private int id;
 
-    @Basic
     @Column(name = "name", nullable = false, length = 50)
+    private String name;
+
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Country setName(String name) {
         this.name = name;
+        return this;
     }
 
-    @Id
-    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public Country setId(int id) {
         this.id = id;
+        return this;
     }
 
     @Override
@@ -33,7 +37,7 @@ public class CountryEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        CountryEntity that = (CountryEntity) o;
+        Country that = (Country) o;
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;

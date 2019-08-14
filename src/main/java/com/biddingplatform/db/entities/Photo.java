@@ -4,51 +4,57 @@ import javax.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "photo", schema = "public", catalog = "biddingplatformdb")
-public class PhotoEntity {
-    private UUID id;
-    private String url;
-    private Integer height;
-    private Integer width;
+@Table(name = "photo")
+public class Photo {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
+    private UUID id;
+
+    @Column(name = "url", nullable = false, length = 200)
+    private String url;
+
+    @Column(name = "height", nullable = true)
+    private Integer height;
+
+    @Column(name = "width", nullable = true)
+    private Integer width;
+
     public UUID getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public Photo setId(UUID id) {
         this.id = id;
+        return this;
     }
 
-    @Basic
-    @Column(name = "url", nullable = false, length = 200)
     public String getUrl() {
         return url;
     }
 
-    public void setUrl(String url) {
+    public Photo setUrl(String url) {
         this.url = url;
+        return this;
     }
 
-    @Basic
-    @Column(name = "height", nullable = true)
     public Integer getHeight() {
         return height;
     }
 
-    public void setHeight(Integer height) {
+    public Photo setHeight(Integer height) {
         this.height = height;
+        return this;
     }
 
-    @Basic
-    @Column(name = "width", nullable = true)
     public Integer getWidth() {
         return width;
     }
 
-    public void setWidth(Integer width) {
+    public Photo setWidth(Integer width) {
         this.width = width;
+        return this;
     }
 
     @Override
@@ -56,7 +62,7 @@ public class PhotoEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        PhotoEntity that = (PhotoEntity) o;
+        Photo that = (Photo) o;
 
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
         if (url != null ? !url.equals(that.url) : that.url != null) return false;

@@ -1,13 +1,13 @@
 package com.biddingplatform.controllers;
 
-import com.biddingplatform.db.repositories.UserRepository;
+import com.biddingplatform.db.DAOs.UserDAO;
 import com.biddingplatform.logic.controllers.UserController;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 
 class UserControllerTest {
     @Mock
-    UserRepository rep;
+    UserDAO rep;
     @InjectMocks
     UserController userController;
 

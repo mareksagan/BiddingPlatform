@@ -1,4 +1,4 @@
-package com.biddingplatform.db.repositories;
+package com.biddingplatform.db.DAOs;
 
 import com.biddingplatform.db.entities.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Repository
-public interface CountryRepository extends JpaRepository<Country, UUID> {
+public interface CountryDAO extends JpaRepository<Country, UUID> {
     Optional<Country> findById(UUID id);
     Optional<Country> findByName(String name);
 }
