@@ -1,3 +1,3 @@
 # BiddingPlatform
 
-Bidding ecommerce platform build upon Angular/NGZORRO, Spring Boot and Java 11
+Bidding e-commerce platform build upon Angular/NG-ZORRO, Spring Boot and Java 11
